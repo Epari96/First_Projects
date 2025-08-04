@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating robot_serving.egg-info
+writing robot_serving.egg-info/PKG-INFO
+writing dependency_links to robot_serving.egg-info/dependency_links.txt
+writing entry points to robot_serving.egg-info/entry_points.txt
+writing requirements to robot_serving.egg-info/requires.txt
+writing top-level names to robot_serving.egg-info/top_level.txt
+writing manifest file 'robot_serving.egg-info/SOURCES.txt'
+reading manifest file 'robot_serving.egg-info/SOURCES.txt'
+writing manifest file 'robot_serving.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot-serving.egg-link (link to .)
+Installing pos script to /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/robot_serving
+Installing table script to /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/robot_serving
+
+Installed /home/jaeheyoung/robot_service_ws/build/robot_serving
+running symlink_data
+creating /home/jaeheyoung/robot_service_ws/install/robot_serving/share/ament_index
+creating /home/jaeheyoung/robot_service_ws/install/robot_serving/share/ament_index/resource_index
+creating /home/jaeheyoung/robot_service_ws/install/robot_serving/share/ament_index/resource_index/packages
+symbolically linking /home/jaeheyoung/robot_service_ws/build/robot_serving/resource/robot_serving -> /home/jaeheyoung/robot_service_ws/install/robot_serving/share/ament_index/resource_index/packages
+symbolically linking /home/jaeheyoung/robot_service_ws/build/robot_serving/package.xml -> /home/jaeheyoung/robot_service_ws/install/robot_serving/share/robot_serving

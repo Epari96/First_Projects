@@ -1,0 +1,6 @@
+[console_scripts]
+amr = tomjo.amr_ctrl:main
+dummy_nav2 = tomjo.dummy_nav2:main
+obserber = tomjo.observer_test:main
+tracker = tomjo.tracker_test:main
+

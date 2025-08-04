@@ -1,0 +1,44 @@
+running egg_info
+writing ../../../../build/rokey/rokey.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/rokey/rokey.egg-info/dependency_links.txt
+writing entry points to ../../../../build/rokey/rokey.egg-info/entry_points.txt
+writing requirements to ../../../../build/rokey/rokey.egg-info/requires.txt
+writing top-level names to ../../../../build/rokey/rokey.egg-info/top_level.txt
+reading manifest file '../../../../build/rokey/rokey.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/rokey/rokey.egg-info/SOURCES.txt'
+running build
+running build_py
+copying rokey/basic/move.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic
+copying rokey/basic/grip_check.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic
+copying rokey/basic/get_current_pos.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic
+copying rokey/basic/jog.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic
+copying rokey/basic/jog_complete.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic
+copying rokey/basic/jog_example.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic
+running install
+running install_lib
+copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic/move.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic/grip_check.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic/get_current_pos.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic/jog.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic/jog_complete.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic/jog_example.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/move.py to move.cpython-310.pyc
+byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/grip_check.py to grip_check.cpython-310.pyc
+byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/get_current_pos.py to get_current_pos.cpython-310.pyc
+byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/jog.py to jog.cpython-310.pyc
+byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/jog_complete.py to jog_complete.cpython-310.pyc
+byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/jog_example.py to jog_example.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../../build/rokey/rokey.egg-info to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey-0.0.0-py3.10.egg-info
+running install_scripts
+Installing force_control script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/rokey
+Installing get_current_pos script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/rokey
+Installing getting_position script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/rokey
+Installing grip script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/rokey
+Installing jog script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/rokey
+Installing jog_example script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/rokey
+Installing move_periodic script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/rokey
+Installing simple_move script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/rokey
+writing list of installed files to '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/install.log'

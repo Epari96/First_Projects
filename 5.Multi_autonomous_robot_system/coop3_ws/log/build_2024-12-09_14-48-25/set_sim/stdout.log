@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing set_sim.egg-info/PKG-INFO
+writing dependency_links to set_sim.egg-info/dependency_links.txt
+writing entry points to set_sim.egg-info/entry_points.txt
+writing requirements to set_sim.egg-info/requires.txt
+writing top-level names to set_sim.egg-info/top_level.txt
+reading manifest file 'set_sim.egg-info/SOURCES.txt'
+writing manifest file 'set_sim.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/set_sim/lib/python3.10/site-packages/set-sim.egg-link (link to .)
+
+Installed /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/set_sim
+running symlink_data

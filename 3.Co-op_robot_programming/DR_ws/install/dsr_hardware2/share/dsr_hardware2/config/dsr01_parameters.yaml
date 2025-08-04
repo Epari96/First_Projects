@@ -1,0 +1,10 @@
+command: true
+gripper: none
+host: 127.0.0.1
+mobile: none
+mode: virtual
+model: m1013
+name: dsr01
+port: 12345
+rate: 100
+standby: 5000

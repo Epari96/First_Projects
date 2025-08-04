@@ -1,0 +1,16 @@
+[1.633s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/set_sim': PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/set_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/set_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/set_sim/build --no-deps symlink_data
+[1.975s] running develop
+[2.233s] running egg_info
+[2.235s] writing set_sim.egg-info/PKG-INFO
+[2.236s] writing dependency_links to set_sim.egg-info/dependency_links.txt
+[2.236s] writing entry points to set_sim.egg-info/entry_points.txt
+[2.236s] writing requirements to set_sim.egg-info/requires.txt
+[2.236s] writing top-level names to set_sim.egg-info/top_level.txt
+[2.236s] reading manifest file 'set_sim.egg-info/SOURCES.txt'
+[2.236s] writing manifest file 'set_sim.egg-info/SOURCES.txt'
+[2.238s] running build_ext
+[2.238s] Creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/set_sim/lib/python3.10/site-packages/set-sim.egg-link (link to .)
+[2.239s] 
+[2.239s] Installed /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/set_sim
+[2.239s] running symlink_data
+[2.274s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/set_sim' returned '0': PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/set_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/set_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/set_sim/build --no-deps symlink_data

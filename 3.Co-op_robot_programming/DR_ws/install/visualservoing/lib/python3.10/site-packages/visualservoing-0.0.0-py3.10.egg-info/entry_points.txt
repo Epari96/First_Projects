@@ -1,0 +1,6 @@
+[console_scripts]
+camera_publisher = visualservoing.camera_publisher:main
+detect_marker_gz = visualservoing.detect_marker_gz:main
+joint90 = visualservoing.joint90:main
+send_pose_servol_gz = visualservoing.send_pose_servol_gz:main
+

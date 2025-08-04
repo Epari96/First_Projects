@@ -1,0 +1,31 @@
+[0.089s] Invoking command in '/home/jaeheyoung/robot_service_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaeheyoung/robot_service_ws/install/turtlebot3_teleop:/home/jaeheyoung/robot_service_ws/install/turtlebot3_example:/home/jaeheyoung/robot_service_ws/install/robot_serving:/opt/ros/humble /usr/bin/cmake --build /home/jaeheyoung/robot_service_ws/build/turtlebot3_navigation2 -- -j20 -l20
+[1.120s] Invoked command in '/home/jaeheyoung/robot_service_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaeheyoung/robot_service_ws/install/turtlebot3_teleop:/home/jaeheyoung/robot_service_ws/install/turtlebot3_example:/home/jaeheyoung/robot_service_ws/install/robot_serving:/opt/ros/humble /usr/bin/cmake --build /home/jaeheyoung/robot_service_ws/build/turtlebot3_navigation2 -- -j20 -l20
+[1.183s] Invoking command in '/home/jaeheyoung/robot_service_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaeheyoung/robot_service_ws/install/turtlebot3_teleop:/home/jaeheyoung/robot_service_ws/install/turtlebot3_example:/home/jaeheyoung/robot_service_ws/install/robot_serving:/opt/ros/humble /usr/bin/cmake --install /home/jaeheyoung/robot_service_ws/build/turtlebot3_navigation2
+[1.198s] -- Install configuration: ""
+[1.198s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch
+[1.198s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[1.198s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map
+[1.198s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[1.198s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[1.198s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param
+[1.198s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[1.199s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[1.199s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[1.199s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz
+[1.199s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[1.199s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[1.199s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[1.199s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[1.199s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[1.199s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[1.200s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[1.200s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[1.200s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[1.200s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[1.200s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[1.200s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[1.200s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[1.200s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[1.200s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[1.200s] -- Up-to-date: /home/jaeheyoung/robot_service_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[1.213s] Invoked command in '/home/jaeheyoung/robot_service_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaeheyoung/robot_service_ws/install/turtlebot3_teleop:/home/jaeheyoung/robot_service_ws/install/turtlebot3_example:/home/jaeheyoung/robot_service_ws/install/robot_serving:/opt/ros/humble /usr/bin/cmake --install /home/jaeheyoung/robot_service_ws/build/turtlebot3_navigation2

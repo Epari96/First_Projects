@@ -1,0 +1,11 @@
+{
+  "package_name": "turtlebot3_msgs",
+  "non_idl_tuples": [
+    "/home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/src/turtlebot3_msgs:msg/SensorState.msg",
+    "/home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/src/turtlebot3_msgs:msg/Sound.msg",
+    "/home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/src/turtlebot3_msgs:msg/VersionInfo.msg",
+    "/home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/src/turtlebot3_msgs:srv/Sound.srv",
+    "/home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/src/turtlebot3_msgs:srv/Dqn.srv",
+    "/home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/src/turtlebot3_msgs:action/Patrol.action"
+  ]
+}

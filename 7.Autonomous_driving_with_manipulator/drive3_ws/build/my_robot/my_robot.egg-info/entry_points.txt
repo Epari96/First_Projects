@@ -1,0 +1,6 @@
+[console_scripts]
+GUI_node = my_robot.GUI_node:main
+img_pub = my_robot.compressed_image_pub:main
+img_sub = my_robot.compressed_image_sub:main
+marker = my_robot.marker_detect:main
+

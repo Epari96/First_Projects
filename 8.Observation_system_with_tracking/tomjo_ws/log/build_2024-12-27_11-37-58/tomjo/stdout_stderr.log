@@ -1,0 +1,12 @@
+running develop
+running egg_info
+creating tomjo.egg-info
+writing manifest file 'tomjo.egg-info/SOURCES.txt'
+writing manifest file 'tomjo.egg-info/SOURCES.txt'
+running build_ext
+running symlink_data
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/tomjo_ws/install/tomjo/share/ament_index
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/tomjo_ws/install/tomjo/share/ament_index/resource_index
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/tomjo_ws/install/tomjo/share/ament_index/resource_index/packages
+symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/tomjo_ws/build/tomjo/resource/tomjo -> /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/tomjo_ws/install/tomjo/share/ament_index/resource_index/packages
+symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/tomjo_ws/build/tomjo/package.xml -> /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/tomjo_ws/install/tomjo/share/tomjo

@@ -1,0 +1,49 @@
+[0.768s] Invoking command in '/home/jaeheyoung/robot_service_ws/build/robot_serving': PYTHONPATH=/home/jaeheyoung/robot_service_ws/build/robot_serving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jaeheyoung/robot_service_ws/build/robot_serving/build
+[1.085s] running develop
+[1.305s] Removing /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot-serving.egg-link (link to .)
+[1.335s] Invoked command in '/home/jaeheyoung/robot_service_ws/build/robot_serving' returned '0': PYTHONPATH=/home/jaeheyoung/robot_service_ws/build/robot_serving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jaeheyoung/robot_service_ws/build/robot_serving/build
+[1.338s] Invoking command in '/home/jaeheyoung/robot_service_ws/src/robot_serving': PYTHONPATH=/home/jaeheyoung/robot_service_ws/build/robot_serving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_serving build --build-base /home/jaeheyoung/robot_service_ws/build/robot_serving/build install --record /home/jaeheyoung/robot_service_ws/build/robot_serving/install.log --single-version-externally-managed install_data --force
+[1.634s] running egg_info
+[1.634s] writing ../../build/robot_serving/robot_serving.egg-info/PKG-INFO
+[1.634s] writing dependency_links to ../../build/robot_serving/robot_serving.egg-info/dependency_links.txt
+[1.634s] writing entry points to ../../build/robot_serving/robot_serving.egg-info/entry_points.txt
+[1.634s] writing requirements to ../../build/robot_serving/robot_serving.egg-info/requires.txt
+[1.634s] writing top-level names to ../../build/robot_serving/robot_serving.egg-info/top_level.txt
+[1.636s] reading manifest file '../../build/robot_serving/robot_serving.egg-info/SOURCES.txt'
+[1.636s] writing manifest file '../../build/robot_serving/robot_serving.egg-info/SOURCES.txt'
+[1.638s] running build
+[1.639s] running build_py
+[1.640s] creating /home/jaeheyoung/robot_service_ws/build/robot_serving/build
+[1.640s] creating /home/jaeheyoung/robot_service_ws/build/robot_serving/build/lib
+[1.641s] creating /home/jaeheyoung/robot_service_ws/build/robot_serving/build/lib/robot_serving
+[1.642s] copying robot_serving/POS.py -> /home/jaeheyoung/robot_service_ws/build/robot_serving/build/lib/robot_serving
+[1.643s] copying robot_serving/tempCodeRunnerFile.py -> /home/jaeheyoung/robot_service_ws/build/robot_serving/build/lib/robot_serving
+[1.644s] copying robot_serving/__init__.py -> /home/jaeheyoung/robot_service_ws/build/robot_serving/build/lib/robot_serving
+[1.645s] copying robot_serving/table.py -> /home/jaeheyoung/robot_service_ws/build/robot_serving/build/lib/robot_serving
+[1.645s] copying robot_serving/Sales_table.py -> /home/jaeheyoung/robot_service_ws/build/robot_serving/build/lib/robot_serving
+[1.647s] copying robot_serving/order_service.py -> /home/jaeheyoung/robot_service_ws/build/robot_serving/build/lib/robot_serving
+[1.648s] running install
+[1.649s] running install_lib
+[1.650s] creating /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving
+[1.650s] copying /home/jaeheyoung/robot_service_ws/build/robot_serving/build/lib/robot_serving/POS.py -> /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving
+[1.651s] copying /home/jaeheyoung/robot_service_ws/build/robot_serving/build/lib/robot_serving/tempCodeRunnerFile.py -> /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving
+[1.652s] copying /home/jaeheyoung/robot_service_ws/build/robot_serving/build/lib/robot_serving/__init__.py -> /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving
+[1.652s] copying /home/jaeheyoung/robot_service_ws/build/robot_serving/build/lib/robot_serving/table.py -> /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving
+[1.653s] copying /home/jaeheyoung/robot_service_ws/build/robot_serving/build/lib/robot_serving/Sales_table.py -> /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving
+[1.653s] copying /home/jaeheyoung/robot_service_ws/build/robot_serving/build/lib/robot_serving/order_service.py -> /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving
+[1.654s] byte-compiling /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving/POS.py to POS.cpython-310.pyc
+[1.655s] byte-compiling /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving/tempCodeRunnerFile.py to tempCodeRunnerFile.cpython-310.pyc
+[1.655s] byte-compiling /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving/__init__.py to __init__.cpython-310.pyc
+[1.656s] byte-compiling /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving/table.py to table.cpython-310.pyc
+[1.656s] byte-compiling /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving/Sales_table.py to Sales_table.cpython-310.pyc
+[1.657s] byte-compiling /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving/order_service.py to order_service.cpython-310.pyc
+[1.658s] running install_data
+[1.658s] copying resource/robot_serving -> /home/jaeheyoung/robot_service_ws/install/robot_serving/share/ament_index/resource_index/packages
+[1.659s] copying package.xml -> /home/jaeheyoung/robot_service_ws/install/robot_serving/share/robot_serving
+[1.659s] running install_egg_info
+[1.660s] Copying ../../build/robot_serving/robot_serving.egg-info to /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving-0.0.0-py3.10.egg-info
+[1.661s] running install_scripts
+[1.671s] Installing pos script to /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/robot_serving
+[1.671s] Installing table script to /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/robot_serving
+[1.672s] writing list of installed files to '/home/jaeheyoung/robot_service_ws/build/robot_serving/install.log'
+[1.697s] Invoked command in '/home/jaeheyoung/robot_service_ws/src/robot_serving' returned '0': PYTHONPATH=/home/jaeheyoung/robot_service_ws/build/robot_serving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_serving build --build-base /home/jaeheyoung/robot_service_ws/build/robot_serving/build install --record /home/jaeheyoung/robot_service_ws/build/robot_serving/install.log --single-version-externally-managed install_data --force

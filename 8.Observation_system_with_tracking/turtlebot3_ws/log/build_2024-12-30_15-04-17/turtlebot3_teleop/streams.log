@@ -1,0 +1,14 @@
+[0.793s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/build/turtlebot3_teleop': PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/build/turtlebot3_teleop/build --no-deps symlink_data
+[1.063s] running develop
+[1.270s] running egg_info
+[1.270s] creating turtlebot3_teleop.egg-info
+[1.271s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.274s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.276s] running build_ext
+[1.277s] running symlink_data
+[1.277s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index
+[1.277s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index/resource_index
+[1.277s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[1.277s] symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/build/turtlebot3_teleop/resource/turtlebot3_teleop -> /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[1.278s] symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/build/turtlebot3_teleop/package.xml -> /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/install/turtlebot3_teleop/share/turtlebot3_teleop
+[1.326s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/build/turtlebot3_teleop/build --no-deps symlink_data

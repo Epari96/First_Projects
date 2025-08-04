@@ -1,0 +1,15 @@
+free_thresh: 0.196
+image: map.pgm
+negate: 0
+occupied_thresh: 0.65
+origin:
+  orientation:
+    w: 1.0
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  position:
+    x: -4.193099527372138
+    y: 10.298260177126453
+    z: 0.0
+resolution: 0.019999999552965164

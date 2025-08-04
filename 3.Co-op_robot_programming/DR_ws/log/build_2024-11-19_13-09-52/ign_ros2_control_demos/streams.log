@@ -1,0 +1,134 @@
+[0.024s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/gz_ros2_control/ign_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos
+[0.153s] -- The C compiler identification is GNU 11.4.0
+[0.249s] -- The CXX compiler identification is GNU 11.4.0
+[0.267s] -- Detecting C compiler ABI info
+[0.441s] -- Detecting C compiler ABI info - done
+[0.449s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.449s] -- Detecting C compile features
+[0.450s] -- Detecting C compile features - done
+[0.453s] -- Detecting CXX compiler ABI info
+[0.611s] -- Detecting CXX compiler ABI info - done
+[0.619s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.620s] -- Detecting CXX compile features
+[0.620s] -- Detecting CXX compile features - done
+[0.622s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.819s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.918s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.958s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.963s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.972s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.985s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.002s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.134s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.175s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.177s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.400s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.435s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.492s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.501s] -- Looking for pthread.h
+[1.643s] -- Looking for pthread.h - found
+[1.644s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.779s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.780s] -- Found Threads: TRUE  
+[1.822s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.839s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.841s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.958s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.961s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.961s] -- Configured cppcheck include dirs: 
+[1.962s] -- Configured cppcheck exclude dirs and/or files: 
+[1.963s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.964s] -- Configured cpplint exclude dirs and/or files: 
+[1.964s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.965s] -- Added test 'lint_cmake' to check CMake code style
+[1.965s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.966s] -- Added test 'uncrustify' to check C / C++ code style
+[1.966s] -- Configured uncrustify additional arguments: 
+[1.967s] -- Added test 'xmllint' to check XML markup files
+[1.968s] -- Configuring done
+[1.989s] -- Generating done
+[1.991s] -- Build files have been written to: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/ign_ros2_control_demos
+[2.002s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/gz_ros2_control/ign_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos
+[2.003s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/ign_ros2_control_demos -- -j20 -l20
+[2.075s] [  7%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[2.079s] [ 14%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[2.084s] [ 21%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[2.088s] [ 28%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[2.091s] [ 35%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[2.103s] [ 42%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[2.110s] [ 50%] [32mBuilding CXX object CMakeFiles/example_ackermann_drive.dir/examples/example_ackermann_drive.cpp.o[0m
+[8.460s] [ 57%] [32m[1mLinking CXX executable example_diff_drive[0m
+[8.656s] [ 57%] Built target example_diff_drive
+[8.715s] [ 64%] [32m[1mLinking CXX executable example_velocity[0m
+[8.893s] [ 64%] Built target example_velocity
+[9.332s] [ 71%] [32m[1mLinking CXX executable example_ackermann_drive[0m
+[9.516s] [ 71%] Built target example_ackermann_drive
+[10.954s] [ 78%] [32m[1mLinking CXX executable example_gripper[0m
+[10.972s] [ 85%] [32m[1mLinking CXX executable example_effort[0m
+[11.165s] [ 85%] Built target example_gripper
+[11.336s] [ 85%] Built target example_effort
+[11.956s] [ 92%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[12.751s] [ 92%] Built target example_tricycle_drive
+[13.588s] [100%] [32m[1mLinking CXX executable example_position[0m
+[14.148s] [100%] Built target example_position
+[14.219s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/ign_ros2_control_demos -- -j20 -l20
+[14.536s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/ign_ros2_control_demos
+[14.584s] -- Install configuration: ""
+[14.586s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch
+[14.587s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/ackermann_drive_example.launch.py
+[14.589s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/pendulum_example_position.launch.py
+[14.590s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[14.592s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[14.593s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/tricycle_drive_example.launch.py
+[14.594s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_velocity.launch.py
+[14.595s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_position.launch.py
+[14.596s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_effort.launch.py
+[14.598s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/diff_drive_example.launch.py
+[14.599s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config
+[14.601s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/diff_drive_controller_velocity.yaml
+[14.602s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cart_controller_position.yaml
+[14.603s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/ackermann_drive_controller.yaml
+[14.604s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cart_controller_velocity.yaml
+[14.604s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/tricycle_drive_controller.yaml
+[14.605s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/gripper_controller.yaml
+[14.606s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cart_controller_effort.yaml
+[14.606s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf
+[14.607s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[14.607s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[14.608s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[14.609s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[14.609s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[14.610s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_ackermann_drive.xacro.urdf
+[14.610s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[14.611s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[14.611s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[14.612s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_position
+[14.615s] -- Set runtime path of "/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_position" to ""
+[14.616s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_velocity
+[14.623s] -- Set runtime path of "/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_velocity" to ""
+[14.623s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_effort
+[14.630s] -- Set runtime path of "/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_effort" to ""
+[14.631s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_diff_drive
+[14.637s] -- Set runtime path of "/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_diff_drive" to ""
+[14.638s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_tricycle_drive
+[14.645s] -- Set runtime path of "/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_tricycle_drive" to ""
+[14.646s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_ackermann_drive
+[14.652s] -- Set runtime path of "/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_ackermann_drive" to ""
+[14.653s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_gripper
+[14.660s] -- Set runtime path of "/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_gripper" to ""
+[14.661s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/ign_ros2_control_demos
+[14.662s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/ign_ros2_control_demos
+[14.664s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/ament_prefix_path.sh
+[14.665s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/ament_prefix_path.dsv
+[14.667s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/path.sh
+[14.668s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/path.dsv
+[14.669s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.bash
+[14.670s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.sh
+[14.671s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.zsh
+[14.672s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.dsv
+[14.673s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.dsv
+[14.674s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ament_index/resource_index/packages/ign_ros2_control_demos
+[14.675s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/cmake/ign_ros2_control_demosConfig.cmake
+[14.675s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/cmake/ign_ros2_control_demosConfig-version.cmake
+[14.676s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.xml
+[14.690s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/ign_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/ign_ros2_control_demos

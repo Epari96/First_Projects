@@ -1,0 +1,38 @@
+<annotation>
+	<folder>learning_box</folder>
+	<filename>image_1734592299.jpg</filename>
+	<path>/home/rokey/주행3/src/learning_box/image_1734592299.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>blue box</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>828</xmin>
+			<ymin>39</ymin>
+			<xmax>1059</xmax>
+			<ymax>283</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blue box</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>833</xmin>
+			<ymin>419</ymin>
+			<xmax>1072</xmax>
+			<ymax>635</ymax>
+		</bndbox>
+	</object>
+</annotation>

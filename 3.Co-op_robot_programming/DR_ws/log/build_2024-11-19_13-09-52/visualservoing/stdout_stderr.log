@@ -1,0 +1,68 @@
+running egg_info
+creating ../../../../build/visualservoing/visualservoing.egg-info
+writing ../../../../build/visualservoing/visualservoing.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/visualservoing/visualservoing.egg-info/dependency_links.txt
+writing entry points to ../../../../build/visualservoing/visualservoing.egg-info/entry_points.txt
+writing requirements to ../../../../build/visualservoing/visualservoing.egg-info/requires.txt
+writing top-level names to ../../../../build/visualservoing/visualservoing.egg-info/top_level.txt
+writing manifest file '../../../../build/visualservoing/visualservoing.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/visualservoing/visualservoing.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/visualservoing/visualservoing.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib/visualservoing
+copying visualservoing/detect_marker_gz.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib/visualservoing
+copying visualservoing/__init__.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib/visualservoing
+copying visualservoing/joint90.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib/visualservoing
+copying visualservoing/camera_publisher.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib/visualservoing
+copying visualservoing/send_pose_servol_gz.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib/visualservoing
+running install
+running install_lib
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing
+copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib/visualservoing/detect_marker_gz.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing
+copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib/visualservoing/__init__.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing
+copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib/visualservoing/joint90.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing
+copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib/visualservoing/camera_publisher.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing
+copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib/visualservoing/send_pose_servol_gz.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing
+byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing/detect_marker_gz.py to detect_marker_gz.cpython-310.pyc
+byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing/joint90.py to joint90.cpython-310.pyc
+byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing/camera_publisher.py to camera_publisher.cpython-310.pyc
+byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing/send_pose_servol_gz.py to send_pose_servol_gz.cpython-310.pyc
+running install_data
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/ament_index
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/ament_index/resource_index
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/ament_index/resource_index/packages
+copying resource/visualservoing -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/ament_index/resource_index/packages
+copying package.xml -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/launch
+copying launch/rgbd_camera.launch.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/launch
+copying launch/visual_servoing_gz.launch.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/launch
+copying launch/dsr_bringup2_visual_servoing_gazebo.launch.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/launch
+copying launch/camera_calibration.launch.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/launch
+copying launch/dsr_gazebo_visual_servoing.launch.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/launch
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/config
+copying config/rgbd_camera_gz.yaml -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/config
+copying config/real_camera.yaml -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/config
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description
+copying description/checker_board.sdf -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description
+copying description/visual_servoing.sdf -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description
+copying description/markerbox1.sdf -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description
+copying description/markerbox2.sdf -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description
+copying description/camera_calibration.sdf -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description
+copying description/markerbox3.sdf -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description/textures
+copying description/textures/4x4_1000-2_115.png -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description/textures
+copying description/textures/4x4_1000-0.png -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description/textures
+copying description/textures/4x4_1000-1_115.png -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description/textures
+copying description/textures/4x4_1000-3_115.png -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description/textures
+running install_egg_info
+Copying ../../../../build/visualservoing/visualservoing.egg-info to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_publisher script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/visualservoing
+Installing detect_marker_gz script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/visualservoing
+Installing joint90 script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/visualservoing
+Installing send_pose_servol_gz script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/visualservoing
+writing list of installed files to '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/install.log'

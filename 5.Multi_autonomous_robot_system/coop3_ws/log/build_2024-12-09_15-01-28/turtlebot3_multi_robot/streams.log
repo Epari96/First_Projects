@@ -1,0 +1,68 @@
+[0.742s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/turtlebot3_multi_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/turtlebot3_multi_robot -- -j20 -l20
+[0.782s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/turtlebot3_multi_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/turtlebot3_multi_robot -- -j20 -l20
+[0.821s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/turtlebot3_multi_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/turtlebot3_multi_robot
+[0.827s] -- Install configuration: ""
+[0.828s] -- Execute custom install script
+[0.828s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//launch/gazebo_multi_nav2_world.launch.py
+[0.829s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//launch/gazebo_multi_world.launch.py
+[0.829s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//launch/nav2_bringup/bringup_launch.py
+[0.829s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//launch/nav2_bringup/localization_launch.py
+[0.830s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//launch/nav2_bringup/navigation_launch.py
+[0.830s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//launch/nav2_bringup/rviz_launch.py
+[0.830s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//launch/nav2_bringup/slam_launch.py
+[0.830s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/fire_car/car.xacro
+[0.830s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/patrol/camera.xacro
+[0.831s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/patrol/car.xacro
+[0.831s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/patrol/gazebo.xacro
+[0.831s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/patrol/lidar.xacro
+[0.831s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/patrol/macros.xacro
+[0.831s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_burger/meshes/burger_base.dae
+[0.831s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_burger/meshes/lds.dae
+[0.831s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_burger/meshes/tire.dae
+[0.832s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_burger/model-1_4.sdf
+[0.832s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_burger/model.config
+[0.832s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_burger/model.sdf
+[0.832s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_waffle/meshes/lds.dae
+[0.832s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_waffle/meshes/r200.dae
+[0.832s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_waffle/meshes/tire.dae
+[0.833s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_waffle/meshes/waffle_base.dae
+[0.833s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_waffle/model-1_4.sdf
+[0.833s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_waffle/model.config
+[0.833s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_waffle/model.sdf
+[0.833s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_waffle/model_nocamera.sdf
+[0.833s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//rviz/multi_nav2_default_view.rviz
+[0.834s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//rviz/nav2_default_view.rviz
+[0.834s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//urdf/common_properties.urdf
+[0.834s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//urdf/turtlebot3_burger.urdf
+[0.834s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//urdf/turtlebot3_waffle.urdf
+[0.834s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//worlds/multi_empty_world.world
+[0.834s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//worlds/multi_robot_world.world
+[0.835s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//worlds/real_world.world
+[0.835s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//params/nav2_params.yaml
+[0.835s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//params/nav2_params_original.yaml
+[0.835s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//map/map.pgm
+[0.835s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//map/map.yaml
+[0.835s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//map/map_241209_1040.pgm
+[0.835s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//map/map_241209_1040.yaml
+[0.835s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//map/map_241209_1100.pgm
+[0.835s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//map/map_241209_1100.yaml
+[0.835s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//map/real_world_image.png
+[0.835s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//turtlebot3_multi_robot/ctrltower_gui.py
+[0.835s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//turtlebot3_multi_robot/waypoint.py
+[0.835s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/environment/multi_robot.dsv
+[0.835s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/ament_index/resource_index/package_run_dependencies/turtlebot3_multi_robot
+[0.835s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/ament_index/resource_index/parent_prefix_path/turtlebot3_multi_robot
+[0.835s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/environment/ament_prefix_path.sh
+[0.835s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/environment/ament_prefix_path.dsv
+[0.835s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/environment/path.sh
+[0.836s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/environment/path.dsv
+[0.836s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/local_setup.bash
+[0.836s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/local_setup.sh
+[0.836s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/local_setup.zsh
+[0.836s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/local_setup.dsv
+[0.836s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/package.dsv
+[0.845s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/ament_index/resource_index/packages/turtlebot3_multi_robot
+[0.845s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/cmake/turtlebot3_multi_robotConfig.cmake
+[0.845s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/cmake/turtlebot3_multi_robotConfig-version.cmake
+[0.846s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/package.xml
+[0.848s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/turtlebot3_multi_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/turtlebot3_multi_robot

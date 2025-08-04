@@ -1,0 +1,23 @@
+[0.012s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/build/automap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/build/automap -- -j20 -l20
+[0.259s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/build/automap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/build/automap -- -j20 -l20
+[0.291s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/build/automap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/build/automap
+[0.297s] -- Install configuration: ""
+[0.297s] -- Execute custom install script
+[0.297s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/automap/lib/automap/mapping.py
+[0.297s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/automap/share/automap/launch/automap.launch.py
+[0.297s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/automap/share/ament_index/resource_index/package_run_dependencies/automap
+[0.297s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/automap/share/ament_index/resource_index/parent_prefix_path/automap
+[0.298s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/automap/share/automap/environment/ament_prefix_path.sh
+[0.298s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/automap/share/automap/environment/ament_prefix_path.dsv
+[0.298s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/automap/share/automap/environment/path.sh
+[0.298s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/automap/share/automap/environment/path.dsv
+[0.298s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/automap/share/automap/local_setup.bash
+[0.298s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/automap/share/automap/local_setup.sh
+[0.298s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/automap/share/automap/local_setup.zsh
+[0.298s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/automap/share/automap/local_setup.dsv
+[0.298s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/automap/share/automap/package.dsv
+[0.307s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/automap/share/ament_index/resource_index/packages/automap
+[0.308s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/automap/share/automap/cmake/automapConfig.cmake
+[0.308s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/automap/share/automap/cmake/automapConfig-version.cmake
+[0.308s] -- Up-to-date symlink: /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/automap/share/automap/package.xml
+[0.310s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/build/automap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/build/automap

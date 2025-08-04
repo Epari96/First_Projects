@@ -1,0 +1,22 @@
+running egg_info
+writing ../../../../build/visualservoing/visualservoing.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/visualservoing/visualservoing.egg-info/dependency_links.txt
+writing entry points to ../../../../build/visualservoing/visualservoing.egg-info/entry_points.txt
+writing requirements to ../../../../build/visualservoing/visualservoing.egg-info/requires.txt
+writing top-level names to ../../../../build/visualservoing/visualservoing.egg-info/top_level.txt
+reading manifest file '../../../../build/visualservoing/visualservoing.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/visualservoing/visualservoing.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../../build/visualservoing/visualservoing.egg-info to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_publisher script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/visualservoing
+Installing detect_marker_gz script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/visualservoing
+Installing joint90 script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/visualservoing
+Installing send_pose_servol_gz script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/visualservoing
+writing list of installed files to '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/install.log'

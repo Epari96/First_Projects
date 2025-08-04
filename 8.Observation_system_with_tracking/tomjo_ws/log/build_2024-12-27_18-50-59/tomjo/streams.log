@@ -1,0 +1,7 @@
+[0.457s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/tomjo_ws/build/tomjo': PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/tomjo_ws/build/tomjo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/tomjo_ws/install/tomjo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/tomjo_ws/build/tomjo/build --no-deps symlink_data
+[0.635s] running develop
+[0.759s] running egg_info
+[0.765s] writing manifest file 'tomjo.egg-info/SOURCES.txt'
+[0.765s] running build_ext
+[0.766s] running symlink_data
+[0.784s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/tomjo_ws/build/tomjo' returned '0': PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/tomjo_ws/build/tomjo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/tomjo_ws/install/tomjo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/tomjo_ws/build/tomjo/build --no-deps symlink_data

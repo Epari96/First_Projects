@@ -1,0 +1,20 @@
+[1.394s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_tests': PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/dsr_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_tests/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/dsr_tests build --build-base /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/dsr_tests/build install --record /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/dsr_tests/install.log --single-version-externally-managed install_data
+[1.716s] running egg_info
+[1.716s] writing ../../../build/dsr_tests/dsr_tests.egg-info/PKG-INFO
+[1.716s] writing dependency_links to ../../../build/dsr_tests/dsr_tests.egg-info/dependency_links.txt
+[1.716s] writing entry points to ../../../build/dsr_tests/dsr_tests.egg-info/entry_points.txt
+[1.716s] writing requirements to ../../../build/dsr_tests/dsr_tests.egg-info/requires.txt
+[1.716s] writing top-level names to ../../../build/dsr_tests/dsr_tests.egg-info/top_level.txt
+[1.718s] reading manifest file '../../../build/dsr_tests/dsr_tests.egg-info/SOURCES.txt'
+[1.719s] writing manifest file '../../../build/dsr_tests/dsr_tests.egg-info/SOURCES.txt'
+[1.719s] running build
+[1.719s] running build_py
+[1.719s] running install
+[1.719s] running install_lib
+[1.720s] running install_data
+[1.720s] running install_egg_info
+[1.723s] removing '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_tests/lib/python3.10/site-packages/dsr_tests-0.0.0-py3.10.egg-info' (and everything under it)
+[1.723s] Copying ../../../build/dsr_tests/dsr_tests.egg-info to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_tests/lib/python3.10/site-packages/dsr_tests-0.0.0-py3.10.egg-info
+[1.723s] running install_scripts
+[1.744s] writing list of installed files to '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/dsr_tests/install.log'
+[1.773s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_tests' returned '0': PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/dsr_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_tests/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/dsr_tests build --build-base /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/dsr_tests/build install --record /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/dsr_tests/install.log --single-version-externally-managed install_data

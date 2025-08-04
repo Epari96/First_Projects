@@ -1,0 +1,41 @@
+[1.144s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial': PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/build --no-deps symlink_data
+[1.434s] running develop
+[1.644s] running egg_info
+[1.644s] creating car_tutorial.egg-info
+[1.644s] writing car_tutorial.egg-info/PKG-INFO
+[1.644s] writing dependency_links to car_tutorial.egg-info/dependency_links.txt
+[1.645s] writing entry points to car_tutorial.egg-info/entry_points.txt
+[1.645s] writing requirements to car_tutorial.egg-info/requires.txt
+[1.645s] writing top-level names to car_tutorial.egg-info/top_level.txt
+[1.645s] writing manifest file 'car_tutorial.egg-info/SOURCES.txt'
+[1.646s] reading manifest file 'car_tutorial.egg-info/SOURCES.txt'
+[1.647s] writing manifest file 'car_tutorial.egg-info/SOURCES.txt'
+[1.648s] running build_ext
+[1.649s] Creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/lib/python3.10/site-packages/car-tutorial.egg-link (link to .)
+[1.649s] Installing driver script to /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/lib/car_tutorial
+[1.650s] Installing odom script to /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/lib/car_tutorial
+[1.650s] 
+[1.651s] Installed /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial
+[1.651s] running symlink_data
+[1.651s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/ament_index
+[1.651s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/ament_index/resource_index
+[1.651s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/ament_index/resource_index/packages
+[1.652s] symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/resource/car_tutorial -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/ament_index/resource_index/packages
+[1.652s] symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/package.xml -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial
+[1.652s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/launch
+[1.652s] symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/launch/car_tutorial.launch.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/launch
+[1.652s] symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/launch/robot_3.launch.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/launch
+[1.652s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/config
+[1.652s] symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/config/car.rviz -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/config
+[1.652s] symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/config/with_robot.world -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/config
+[1.652s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/urdf
+[1.652s] symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/urdf/car.xacro -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/urdf
+[1.652s] symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/urdf/lidar_3.xacro -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/urdf
+[1.653s] symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/urdf/gazebo.xacro -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/urdf
+[1.653s] symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/urdf/camera.xacro -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/urdf
+[1.653s] symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/urdf/macros.xacro -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/urdf
+[1.653s] symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/urdf/turtlebot3_burger.xacro -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/urdf
+[1.653s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/photo
+[1.653s] symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/photo/photo.png -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/photo
+[1.653s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/worlds
+[1.708s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial' returned '0': PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/build --no-deps symlink_data

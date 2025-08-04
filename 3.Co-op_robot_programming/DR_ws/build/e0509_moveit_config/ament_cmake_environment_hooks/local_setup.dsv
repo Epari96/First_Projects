@@ -1,0 +1,2 @@
+source;share/e0509_moveit_config/environment/ament_prefix_path.sh
+source;share/e0509_moveit_config/environment/path.sh

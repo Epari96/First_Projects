@@ -1,0 +1,75 @@
+[0.011s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/build/turtlebot3_manipulation_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware
+[0.048s] -- The C compiler identification is GNU 11.4.0
+[0.088s] -- The CXX compiler identification is GNU 11.4.0
+[0.092s] -- Detecting C compiler ABI info
+[0.138s] -- Detecting C compiler ABI info - done
+[0.143s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.143s] -- Detecting C compile features
+[0.144s] -- Detecting C compile features - done
+[0.145s] -- Detecting CXX compiler ABI info
+[0.204s] -- Detecting CXX compiler ABI info - done
+[0.209s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.209s] -- Detecting CXX compile features
+[0.210s] -- Detecting CXX compile features - done
+[0.211s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.485s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.528s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.550s] -- Found dynamixel_sdk: 3.7.60 (/opt/ros/humble/share/dynamixel_sdk/cmake)
+[0.552s] -- Found hardware_interface: 2.44.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.579s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.583s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.588s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.596s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.608s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.750s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.753s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.775s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.784s] -- Looking for pthread.h
+[0.834s] -- Looking for pthread.h - found
+[0.834s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.887s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.888s] -- Found Threads: TRUE  
+[0.963s] -- Configuring done
+[0.980s] -- Generating done
+[0.982s] -- Build files have been written to: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/build/turtlebot3_manipulation_hardware
+[0.988s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/build/turtlebot3_manipulation_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware
+[0.990s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/build/turtlebot3_manipulation_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/build/turtlebot3_manipulation_hardware -- -j20 -l20
+[1.030s] [ 25%] [32mBuilding CXX object CMakeFiles/turtlebot3_manipulation_hardware.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[1.031s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_manipulation_hardware.dir/src/opencr.cpp.o[0m
+[1.032s] [ 75%] [32mBuilding CXX object CMakeFiles/turtlebot3_manipulation_hardware.dir/src/turtlebot3_manipulation_system.cpp.o[0m
+[3.185s] [100%] [32m[1mLinking CXX shared library libturtlebot3_manipulation_hardware.so[0m
+[3.294s] [100%] Built target turtlebot3_manipulation_hardware
+[3.303s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/build/turtlebot3_manipulation_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/build/turtlebot3_manipulation_hardware -- -j20 -l20
+[3.305s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/build/turtlebot3_manipulation_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/build/turtlebot3_manipulation_hardware
+[3.310s] -- Install configuration: ""
+[3.310s] -- Execute custom install script
+[3.310s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware//turtlebot3_manipulation_hardware.xml
+[3.317s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/dynamixel_sdk_wrapper.hpp
+[3.322s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/opencr.hpp
+[3.330s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/opencr_control_table.hpp
+[3.337s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/opencr_definitions.hpp
+[3.342s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/turtlebot3_manipulation_system.hpp
+[3.349s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/visibility_control.h
+[3.356s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/lib/libturtlebot3_manipulation_hardware.so
+[3.362s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/library_path.sh
+[3.368s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/library_path.dsv
+[3.376s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation_hardware
+[3.382s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation_hardware
+[3.389s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/ament_prefix_path.sh
+[3.396s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/ament_prefix_path.dsv
+[3.402s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/path.sh
+[3.409s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/path.dsv
+[3.416s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/local_setup.bash
+[3.422s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/local_setup.sh
+[3.429s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/local_setup.zsh
+[3.435s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/local_setup.dsv
+[3.442s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.dsv
+[3.448s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/share/ament_index/resource_index/packages/turtlebot3_manipulation_hardware
+[3.454s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/turtlebot3_manipulation_hardware
+[3.461s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.468s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[3.473s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.481s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/cmake/turtlebot3_manipulation_hardwareConfig.cmake
+[3.488s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/cmake/turtlebot3_manipulation_hardwareConfig-version.cmake
+[3.495s] -- Symlinking: /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.xml
+[3.503s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/build/turtlebot3_manipulation_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/build/turtlebot3_manipulation_hardware

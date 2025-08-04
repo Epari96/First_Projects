@@ -1,0 +1,16 @@
+In file included from [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_example2/realtime_control/../../common2/include/../../common2/include/DRFL.h:58[m[K,
+                 from [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_example2/realtime_control/../../common2/include/../../common2/include/DRFLEx.h:58[m[K,
+                 from [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_example2/realtime_control/include/dsr_realtime_control/realtime_control.hpp:18[m[K,
+                 from [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_example2/realtime_control/src/realtime_control.cpp:4[m[K:
+[01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_example2/realtime_control/../../common2/include/../../common2/include/DRFS.h:2205:50:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 2205 |     CONFIG_WELDING_DETAIL_INFO  _tWeldingCurrent;[01;35m[K;[m[K
+      |                                                  [01;35m[K^[m[K
+      |                                                  [31m[K-[m[K
+In file included from [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_example2/realtime_control/../../common2/include/../../common2/include/DRFL.h:58[m[K,
+                 from [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_example2/realtime_control/../../common2/include/../../common2/include/DRFLEx.h:58[m[K,
+                 from [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_example2/realtime_control/include/dsr_realtime_control/realtime_api.hpp:21[m[K,
+                 from [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_example2/realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_example2/realtime_control/../../common2/include/../../common2/include/DRFS.h:2205:50:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 2205 |     CONFIG_WELDING_DETAIL_INFO  _tWeldingCurrent;[01;35m[K;[m[K
+      |                                                  [01;35m[K^[m[K
+      |                                                  [31m[K-[m[K

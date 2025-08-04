@@ -1,0 +1,23 @@
+[1.573s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/set_sim': PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/set_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/set_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/set_sim/build --no-deps symlink_data
+[1.937s] running develop
+[2.188s] running egg_info
+[2.188s] creating set_sim.egg-info
+[2.189s] writing set_sim.egg-info/PKG-INFO
+[2.189s] writing dependency_links to set_sim.egg-info/dependency_links.txt
+[2.190s] writing entry points to set_sim.egg-info/entry_points.txt
+[2.190s] writing requirements to set_sim.egg-info/requires.txt
+[2.190s] writing top-level names to set_sim.egg-info/top_level.txt
+[2.190s] writing manifest file 'set_sim.egg-info/SOURCES.txt'
+[2.190s] reading manifest file 'set_sim.egg-info/SOURCES.txt'
+[2.191s] writing manifest file 'set_sim.egg-info/SOURCES.txt'
+[2.192s] running build_ext
+[2.192s] Creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/set_sim/lib/python3.10/site-packages/set-sim.egg-link (link to .)
+[2.193s] 
+[2.193s] Installed /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/set_sim
+[2.193s] running symlink_data
+[2.193s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/set_sim/share/ament_index
+[2.193s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/set_sim/share/ament_index/resource_index
+[2.193s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/set_sim/share/ament_index/resource_index/packages
+[2.193s] symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/set_sim/resource/set_sim -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/set_sim/share/ament_index/resource_index/packages
+[2.193s] symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/set_sim/package.xml -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/set_sim/share/set_sim
+[2.227s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/set_sim' returned '0': PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/set_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/set_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/set_sim/build --no-deps symlink_data

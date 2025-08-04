@@ -1,0 +1,104 @@
+
+def grip():
+    set_digital_output(1, ON)
+    set_digital_output(2, OFF)
+    # wait_digital_input(1, ON)
+def grip1():
+    set_digital_output(1, ON)
+    set_digital_output(2, OFF)
+def ungrip():
+    set_digital_output(2, ON)
+    set_digital_output(1, OFF)
+    wait_digital_input(2, ON)
+    
+pos1 = posx(650,100,80,0,180,0) 
+pos2 = posx(548,100,80,0,180,0) 
+pos3 = posx(650,0,80,0,180,0)
+pos4 = posx(548,0,80,0,180,0)
+
+direction = 0 # Normal Pallet -> 0: Snake, 1: Zigzag / Rhombus Pallet -> 2: Snake, 3: Zigzag
+row = 3
+column = 3
+stack = 1
+thickness = 0
+point_offset = [0, 0, 0] # Offset for calculated pose
+ 
+# Total count
+if direction < 2: # Normal Pallet
+    total_count = row * column * stack
+else: # Rhombus Pallet
+    total_count = (row * column - int(row/2)) * stack
+
+def pallet_task(pos_start):
+    movel(posx(pos_start), ref=DR_BASE, mod=DR_MV_MOD_ABS, a=500, v=700)
+    set_ref_coord(DR_TOOL)
+    task_compliance_ctrl(stx=[500, 500, 500, 100, 100, 100])
+    fd = [0, 0, 20, 0, 0, 0]
+    fctrl_dir = [0, 0, 1, 0, 0, 0]
+    set_desired_force(fd, dir=fctrl_dir, mod=DR_FC_MOD_REL)
+    while True:
+        pos_chk = get_current_posx(ref=DR_BASE)[0][2]
+        force_ext = get_tool_force(DR_TOOL)[2]
+        tp_log("{}".format(force_ext))
+        if force_ext <= -7 and pos_chk>35:
+            stop(DR_SSTOP)
+            release_compliance_ctrl()
+            movel(posx(0,0,100,0,0,0), ref=DR_BASE, mod=DR_MV_MOD_REL, a=300,v=300)
+            tp_popup("간섭발생. 정지합니다.", DR_PM_MESSAGE)
+            break
+        elif force_ext >= -7 and pos_chk<=35:
+            release_compliance_ctrl()
+            set_ref_coord(DR_BASE)
+            grip()
+            movel(posx(0,0,100,0,0,0), ref=DR_BASE, mod=DR_MV_MOD_REL, a=300,v=300)
+            break
+    pos_goal = pos_start
+    pos_goal[0] = pos_goal[0]-197
+    pos_goal[2] = 120
+    movel(posx(pos_goal), ref=DR_BASE, mod=DR_MV_MOD_ABS, a=500, v=700)
+    set_ref_coord(DR_TOOL)
+    task_compliance_ctrl(stx=[500, 500, 500, 100, 100, 100])
+    fd = [0, 0, 20, 0, 0, 0]
+    fctrl_dir = [0, 0, 1, 0, 0, 0]
+    set_desired_force(fd, dir=fctrl_dir, mod=DR_FC_MOD_REL)
+    while True:
+        pos_chk = get_current_posx(ref=DR_BASE)[0][2]
+        force_ext = get_tool_force(DR_TOOL)[2]
+        tp_log("{}".format(force_ext))
+        if pos_chk<=40:
+            release_compliance_ctrl()
+            set_ref_coord(DR_BASE)
+            ungrip()
+            movel(posx(0,0,100,0,0,0), ref=DR_BASE, mod=DR_MV_MOD_REL, a=300,v=300)
+            break
+
+
+
+# 현재 위치에서 작업물에 걸리지 않게Z방향으로 이동
+movel(posx(0, 0, 100, 0, 0, 0), ref=DR_BASE, mod=DR_MV_MOD_REL, a=500, v=700)
+ungrip()
+
+if curr_work == 0:
+    start= tp_get_user_input('시작할 위치를 입력하세요(1~9)', input_type= DR_VAR_INT)-1
+    for pallet_index in range(start, total_count):
+        Pallet_Pose = get_pattern_point(pos1, pos2, pos3, pos4, pallet_index, direction, row, column, stack, thickness, point_offset)
+        pallet_task(Pallet_Pose)
+        curr_work = pallet_index+1
+else:
+    choice= tp_get_user_input('이전 작업이 중지되었습니다.({}번 까지 진행됨.) 중지된 작업부터 진행할까요? (네:1, 아니오: 2) '.format(curr_work), input_type= DR_VAR_INT)
+    if choice == 1:
+        for pallet_index in range(curr_work, total_count):
+            Pallet_Pose = get_pattern_point(pos1, pos2, pos3, pos4, pallet_index, direction, row, column, stack, thickness, point_offset)
+            pallet_task(Pallet_Pose)
+            curr_work = pallet_index+1
+    elif choice == 2:
+        start= tp_get_user_input('시작할 위치를 입력하세요(1~9)', input_type= DR_VAR_INT)-1
+        for pallet_index in range(start, total_count):
+            Pallet_Pose = get_pattern_point(pos1, pos2, pos3, pos4, pallet_index, direction, row, column, stack, thickness, point_offset)
+            pallet_task(Pallet_Pose)
+            curr_work = pallet_index+1
+    else:
+        tp_popup("잘못된 입력입니다.", DR_PM_MESSAGE)
+
+ tp_popup("작업 완료!", DR_PM_MESSAGE)
+ curr_work = 0

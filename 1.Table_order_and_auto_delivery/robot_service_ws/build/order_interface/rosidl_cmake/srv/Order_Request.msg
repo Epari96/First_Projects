@@ -1,0 +1,3 @@
+string item_name
+int32 quantity
+int32 is_receipt

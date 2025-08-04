@@ -1,0 +1,4 @@
+[console_scripts]
+pos = robot_serving.POS:main
+table = robot_serving.table:main
+

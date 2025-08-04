@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating firedetect.egg-info
+writing firedetect.egg-info/PKG-INFO
+writing dependency_links to firedetect.egg-info/dependency_links.txt
+writing entry points to firedetect.egg-info/entry_points.txt
+writing requirements to firedetect.egg-info/requires.txt
+writing top-level names to firedetect.egg-info/top_level.txt
+writing manifest file 'firedetect.egg-info/SOURCES.txt'
+reading manifest file 'firedetect.egg-info/SOURCES.txt'
+writing manifest file 'firedetect.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/firedetect/lib/python3.10/site-packages/firedetect.egg-link (link to .)
+
+Installed /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/firedetect
+running symlink_data
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/firedetect/share/ament_index
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/firedetect/share/ament_index/resource_index
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/firedetect/share/ament_index/resource_index/packages
+symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/firedetect/resource/firedetect -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/firedetect/share/ament_index/resource_index/packages
+symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/firedetect/package.xml -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/firedetect/share/firedetect

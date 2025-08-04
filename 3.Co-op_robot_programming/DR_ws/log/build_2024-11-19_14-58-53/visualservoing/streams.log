@@ -1,0 +1,24 @@
+[1.756s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_example2/visualservoing': PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/visualservoing build --build-base /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build install --record /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/install.log --single-version-externally-managed install_data
+[2.071s] running egg_info
+[2.071s] writing ../../../../build/visualservoing/visualservoing.egg-info/PKG-INFO
+[2.072s] writing dependency_links to ../../../../build/visualservoing/visualservoing.egg-info/dependency_links.txt
+[2.072s] writing entry points to ../../../../build/visualservoing/visualservoing.egg-info/entry_points.txt
+[2.072s] writing requirements to ../../../../build/visualservoing/visualservoing.egg-info/requires.txt
+[2.072s] writing top-level names to ../../../../build/visualservoing/visualservoing.egg-info/top_level.txt
+[2.074s] reading manifest file '../../../../build/visualservoing/visualservoing.egg-info/SOURCES.txt'
+[2.075s] writing manifest file '../../../../build/visualservoing/visualservoing.egg-info/SOURCES.txt'
+[2.075s] running build
+[2.075s] running build_py
+[2.075s] running install
+[2.075s] running install_lib
+[2.076s] running install_data
+[2.077s] running install_egg_info
+[2.078s] removing '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing-0.0.0-py3.10.egg-info' (and everything under it)
+[2.079s] Copying ../../../../build/visualservoing/visualservoing.egg-info to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing-0.0.0-py3.10.egg-info
+[2.079s] running install_scripts
+[2.099s] Installing camera_publisher script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/visualservoing
+[2.100s] Installing detect_marker_gz script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/visualservoing
+[2.100s] Installing joint90 script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/visualservoing
+[2.100s] Installing send_pose_servol_gz script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/visualservoing
+[2.100s] writing list of installed files to '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/install.log'
+[2.124s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_example2/visualservoing' returned '0': PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/visualservoing build --build-base /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build install --record /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/install.log --single-version-externally-managed install_data

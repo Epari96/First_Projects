@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a878b49a9f9f304b033d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "turtlebot3_manipulation_moveit_config",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_manipulation_moveit_config_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_manipulation_moveit_config_uninstall-c54f1907bf14c78c85ab.json",
+					"name" : "turtlebot3_manipulation_moveit_config_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6b82c1f594b1b33eae3d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/build/turtlebot3_manipulation_moveit_config",
+		"source" : "/home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/turtlebot3_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

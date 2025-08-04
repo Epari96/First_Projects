@@ -1,0 +1,58 @@
+[1.485s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_rokey/rokey': AMENT_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/common2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/common2 PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/rokey build --build-base /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build install --record /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/install.log --single-version-externally-managed install_data
+[1.775s] running egg_info
+[1.775s] creating ../../../../build/rokey/rokey.egg-info
+[1.775s] writing ../../../../build/rokey/rokey.egg-info/PKG-INFO
+[1.775s] writing dependency_links to ../../../../build/rokey/rokey.egg-info/dependency_links.txt
+[1.775s] writing entry points to ../../../../build/rokey/rokey.egg-info/entry_points.txt
+[1.776s] writing requirements to ../../../../build/rokey/rokey.egg-info/requires.txt
+[1.776s] writing top-level names to ../../../../build/rokey/rokey.egg-info/top_level.txt
+[1.776s] writing manifest file '../../../../build/rokey/rokey.egg-info/SOURCES.txt'
+[1.778s] reading manifest file '../../../../build/rokey/rokey.egg-info/SOURCES.txt'
+[1.779s] writing manifest file '../../../../build/rokey/rokey.egg-info/SOURCES.txt'
+[1.779s] running build
+[1.779s] running build_py
+[1.779s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build
+[1.779s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib
+[1.779s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey
+[1.779s] copying rokey/__init__.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey
+[1.779s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic
+[1.779s] copying rokey/basic/move.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic
+[1.779s] copying rokey/basic/grip.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic
+[1.779s] copying rokey/basic/force_control.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic
+[1.780s] copying rokey/basic/__init__.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic
+[1.780s] copying rokey/basic/move_periodic.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic
+[1.780s] copying rokey/basic/getting_position.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic
+[1.780s] running install
+[1.781s] running install_lib
+[1.781s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey
+[1.782s] copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/__init__.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey
+[1.782s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+[1.782s] copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic/move.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+[1.782s] copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic/grip.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+[1.782s] copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic/force_control.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+[1.782s] copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic/__init__.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+[1.782s] copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic/move_periodic.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+[1.782s] copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build/lib/rokey/basic/getting_position.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+[1.782s] byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/__init__.py to __init__.cpython-310.pyc
+[1.783s] byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/move.py to move.cpython-310.pyc
+[1.783s] byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/grip.py to grip.cpython-310.pyc
+[1.784s] byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/force_control.py to force_control.cpython-310.pyc
+[1.784s] byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/__init__.py to __init__.cpython-310.pyc
+[1.784s] byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/move_periodic.py to move_periodic.cpython-310.pyc
+[1.785s] byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/getting_position.py to getting_position.cpython-310.pyc
+[1.785s] running install_data
+[1.785s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/share/ament_index
+[1.786s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/share/ament_index/resource_index
+[1.786s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/share/ament_index/resource_index/packages
+[1.786s] copying resource/rokey -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/share/ament_index/resource_index/packages
+[1.786s] copying package.xml -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/share/rokey
+[1.786s] running install_egg_info
+[1.788s] Copying ../../../../build/rokey/rokey.egg-info to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages/rokey-0.0.0-py3.10.egg-info
+[1.788s] running install_scripts
+[1.809s] Installing force_control script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/rokey
+[1.809s] Installing getting_position script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/rokey
+[1.809s] Installing grip script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/rokey
+[1.809s] Installing move_periodic script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/rokey
+[1.809s] Installing simple_move script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/rokey
+[1.810s] writing list of installed files to '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/install.log'
+[1.836s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_rokey/rokey' returned '0': AMENT_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/common2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/common2 PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/rokey/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/rokey build --build-base /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/build install --record /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/rokey/install.log --single-version-externally-managed install_data

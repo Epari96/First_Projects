@@ -1,0 +1,4 @@
+[console_scripts]
+driver = car_tutorial.driver:main
+odom = car_tutorial.odom:main
+

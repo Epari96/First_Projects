@@ -1,0 +1,16 @@
+[1.547s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/firedetect': PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/firedetect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/firedetect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/firedetect/build --no-deps symlink_data
+[1.875s] running develop
+[2.111s] running egg_info
+[2.112s] writing firedetect.egg-info/PKG-INFO
+[2.112s] writing dependency_links to firedetect.egg-info/dependency_links.txt
+[2.112s] writing entry points to firedetect.egg-info/entry_points.txt
+[2.112s] writing requirements to firedetect.egg-info/requires.txt
+[2.112s] writing top-level names to firedetect.egg-info/top_level.txt
+[2.114s] reading manifest file 'firedetect.egg-info/SOURCES.txt'
+[2.115s] writing manifest file 'firedetect.egg-info/SOURCES.txt'
+[2.116s] running build_ext
+[2.118s] Creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/firedetect/lib/python3.10/site-packages/firedetect.egg-link (link to .)
+[2.119s] 
+[2.120s] Installed /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/firedetect
+[2.120s] running symlink_data
+[2.155s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/firedetect' returned '0': PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/firedetect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/firedetect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/firedetect/build --no-deps symlink_data

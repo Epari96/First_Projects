@@ -1,0 +1,70 @@
+[2.312s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_example2/visualservoing': PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/visualservoing build --build-base /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build install --record /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/install.log --single-version-externally-managed install_data
+[2.613s] running egg_info
+[2.614s] creating ../../../../build/visualservoing/visualservoing.egg-info
+[2.614s] writing ../../../../build/visualservoing/visualservoing.egg-info/PKG-INFO
+[2.614s] writing dependency_links to ../../../../build/visualservoing/visualservoing.egg-info/dependency_links.txt
+[2.614s] writing entry points to ../../../../build/visualservoing/visualservoing.egg-info/entry_points.txt
+[2.614s] writing requirements to ../../../../build/visualservoing/visualservoing.egg-info/requires.txt
+[2.614s] writing top-level names to ../../../../build/visualservoing/visualservoing.egg-info/top_level.txt
+[2.614s] writing manifest file '../../../../build/visualservoing/visualservoing.egg-info/SOURCES.txt'
+[2.616s] reading manifest file '../../../../build/visualservoing/visualservoing.egg-info/SOURCES.txt'
+[2.616s] writing manifest file '../../../../build/visualservoing/visualservoing.egg-info/SOURCES.txt'
+[2.617s] running build
+[2.617s] running build_py
+[2.617s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build
+[2.617s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib
+[2.617s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib/visualservoing
+[2.617s] copying visualservoing/detect_marker_gz.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib/visualservoing
+[2.618s] copying visualservoing/__init__.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib/visualservoing
+[2.618s] copying visualservoing/joint90.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib/visualservoing
+[2.618s] copying visualservoing/camera_publisher.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib/visualservoing
+[2.618s] copying visualservoing/send_pose_servol_gz.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib/visualservoing
+[2.618s] running install
+[2.618s] running install_lib
+[2.619s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing
+[2.619s] copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib/visualservoing/detect_marker_gz.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing
+[2.619s] copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib/visualservoing/__init__.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing
+[2.619s] copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib/visualservoing/joint90.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing
+[2.619s] copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib/visualservoing/camera_publisher.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing
+[2.619s] copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build/lib/visualservoing/send_pose_servol_gz.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing
+[2.619s] byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing/detect_marker_gz.py to detect_marker_gz.cpython-310.pyc
+[2.620s] byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing/__init__.py to __init__.cpython-310.pyc
+[2.620s] byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing/joint90.py to joint90.cpython-310.pyc
+[2.620s] byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing/camera_publisher.py to camera_publisher.cpython-310.pyc
+[2.620s] byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing/send_pose_servol_gz.py to send_pose_servol_gz.cpython-310.pyc
+[2.623s] running install_data
+[2.623s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/ament_index
+[2.628s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/ament_index/resource_index
+[2.628s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/ament_index/resource_index/packages
+[2.628s] copying resource/visualservoing -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/ament_index/resource_index/packages
+[2.628s] copying package.xml -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing
+[2.628s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/launch
+[2.628s] copying launch/rgbd_camera.launch.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/launch
+[2.628s] copying launch/visual_servoing_gz.launch.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/launch
+[2.628s] copying launch/dsr_bringup2_visual_servoing_gazebo.launch.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/launch
+[2.628s] copying launch/camera_calibration.launch.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/launch
+[2.628s] copying launch/dsr_gazebo_visual_servoing.launch.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/launch
+[2.628s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/config
+[2.628s] copying config/rgbd_camera_gz.yaml -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/config
+[2.629s] copying config/real_camera.yaml -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/config
+[2.629s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description
+[2.629s] copying description/checker_board.sdf -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description
+[2.629s] copying description/visual_servoing.sdf -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description
+[2.629s] copying description/markerbox1.sdf -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description
+[2.629s] copying description/markerbox2.sdf -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description
+[2.629s] copying description/camera_calibration.sdf -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description
+[2.629s] copying description/markerbox3.sdf -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description
+[2.629s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description/textures
+[2.629s] copying description/textures/4x4_1000-2_115.png -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description/textures
+[2.629s] copying description/textures/4x4_1000-0.png -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description/textures
+[2.629s] copying description/textures/4x4_1000-1_115.png -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description/textures
+[2.630s] copying description/textures/4x4_1000-3_115.png -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/share/visualservoing/description/textures
+[2.630s] running install_egg_info
+[2.632s] Copying ../../../../build/visualservoing/visualservoing.egg-info to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages/visualservoing-0.0.0-py3.10.egg-info
+[2.632s] running install_scripts
+[2.637s] Installing camera_publisher script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/visualservoing
+[2.637s] Installing detect_marker_gz script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/visualservoing
+[2.637s] Installing joint90 script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/visualservoing
+[2.637s] Installing send_pose_servol_gz script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/visualservoing
+[2.637s] writing list of installed files to '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/install.log'
+[2.821s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_example2/visualservoing' returned '0': PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/visualservoing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/visualservoing build --build-base /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/build install --record /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/visualservoing/install.log --single-version-externally-managed install_data

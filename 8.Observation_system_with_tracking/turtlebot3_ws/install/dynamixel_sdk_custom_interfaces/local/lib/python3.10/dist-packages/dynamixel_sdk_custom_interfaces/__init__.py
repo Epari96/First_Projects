@@ -1,0 +1,1 @@
+/home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_py/dynamixel_sdk_custom_interfaces/__init__.py

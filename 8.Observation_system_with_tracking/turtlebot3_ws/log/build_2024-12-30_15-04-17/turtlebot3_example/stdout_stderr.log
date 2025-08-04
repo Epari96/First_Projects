@@ -1,0 +1,12 @@
+running develop
+running egg_info
+creating turtlebot3_example.egg-info
+writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+running build_ext
+running symlink_data
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/install/turtlebot3_example/share/ament_index
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/build/turtlebot3_example/resource/turtlebot3_example -> /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/build/turtlebot3_example/package.xml -> /home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example

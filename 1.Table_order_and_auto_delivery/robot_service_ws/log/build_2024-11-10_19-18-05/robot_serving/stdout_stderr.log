@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/robot_serving/robot_serving.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_serving/robot_serving.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_serving/robot_serving.egg-info/entry_points.txt
+writing requirements to ../../build/robot_serving/robot_serving.egg-info/requires.txt
+writing top-level names to ../../build/robot_serving/robot_serving.egg-info/top_level.txt
+reading manifest file '../../build/robot_serving/robot_serving.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_serving/robot_serving.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot_serving/POS.py -> /home/jaeheyoung/robot_service_ws/build/robot_serving/build/lib/robot_serving
+copying robot_serving/tempCodeRunnerFile.py -> /home/jaeheyoung/robot_service_ws/build/robot_serving/build/lib/robot_serving
+running install
+running install_lib
+copying /home/jaeheyoung/robot_service_ws/build/robot_serving/build/lib/robot_serving/POS.py -> /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving
+copying /home/jaeheyoung/robot_service_ws/build/robot_serving/build/lib/robot_serving/tempCodeRunnerFile.py -> /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving
+byte-compiling /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving/POS.py to POS.cpython-310.pyc
+byte-compiling /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving/tempCodeRunnerFile.py to tempCodeRunnerFile.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/robot_serving/robot_serving.egg-info to /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pos script to /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/robot_serving
+Installing table script to /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/robot_serving
+writing list of installed files to '/home/jaeheyoung/robot_service_ws/build/robot_serving/install.log'

@@ -1,0 +1,11 @@
+[console_scripts]
+cup = c5.basic.cup_stacking:main
+domino = c5.basic.stack_domino1:main
+force_control = c5.basic.force_control:main
+getting_position = c5.basic.getting_position:main
+grip = c5.basic.grip:main
+move_periodic = c5.basic.move_periodic:main
+pickNplace = c5.basic.pickNplace:main
+simple_move = c5.basic.move:main
+sort_block = c5.basic.sortingBlock:main
+

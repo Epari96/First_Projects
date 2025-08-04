@@ -1,0 +1,17 @@
+README.md
+package.xml
+setup.cfg
+setup.py
+../../../../build/example/example.egg-info/PKG-INFO
+../../../../build/example/example.egg-info/SOURCES.txt
+../../../../build/example/example.egg-info/dependency_links.txt
+../../../../build/example/example.egg-info/entry_points.txt
+../../../../build/example/example.egg-info/requires.txt
+../../../../build/example/example.egg-info/top_level.txt
+../../../../build/example/example.egg-info/zip-safe
+example/__init__.py
+example/demo/__init__.py
+example/demo/dance_m1013.py
+example/simple/__init__.py
+example/simple/single_robot_simple.py
+resource/example

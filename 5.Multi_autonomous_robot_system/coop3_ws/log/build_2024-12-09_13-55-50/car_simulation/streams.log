@@ -1,0 +1,16 @@
+[1.502s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_simulation': PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_simulation/build --no-deps symlink_data
+[1.823s] running develop
+[2.057s] running egg_info
+[2.058s] writing car_simulation.egg-info/PKG-INFO
+[2.058s] writing dependency_links to car_simulation.egg-info/dependency_links.txt
+[2.058s] writing entry points to car_simulation.egg-info/entry_points.txt
+[2.058s] writing requirements to car_simulation.egg-info/requires.txt
+[2.059s] writing top-level names to car_simulation.egg-info/top_level.txt
+[2.060s] reading manifest file 'car_simulation.egg-info/SOURCES.txt'
+[2.062s] writing manifest file 'car_simulation.egg-info/SOURCES.txt'
+[2.066s] running build_ext
+[2.067s] Creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_simulation/lib/python3.10/site-packages/car-simulation.egg-link (link to .)
+[2.068s] 
+[2.069s] Installed /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_simulation
+[2.070s] running symlink_data
+[2.097s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_simulation' returned '0': PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_simulation/build --no-deps symlink_data

@@ -1,0 +1,182 @@
+[0.009s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/dsr_controller2': AMENT_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_hardware2:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_hardware2:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2:/opt/ros/humble LD_LIBRARY_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_hardware2/lib:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2 -DCMAKE_INSTALL_PREFIX=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2
+[0.063s] -- The CXX compiler identification is GNU 11.4.0
+[0.068s] -- Detecting CXX compiler ABI info
+[0.141s] -- Detecting CXX compiler ABI info - done
+[0.147s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.147s] -- Detecting CXX compile features
+[0.148s] -- Detecting CXX compile features - done
+[0.149s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.255s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.319s] -- Found forward_command_controller: 2.37.3 (/opt/ros/humble/share/forward_command_controller/cmake)
+[0.349s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.352s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.357s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.365s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.375s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.511s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.513s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.530s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.595s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.598s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.614s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.616s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.624s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.631s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.638s] -- Looking for C++ include pthread.h
+[0.705s] -- Looking for C++ include pthread.h - found
+[0.706s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.783s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.784s] -- Found Threads: TRUE  
+[0.823s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.850s] -- Found dsr_msgs2: 1.1.0 (/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2/share/dsr_msgs2/cmake)
+[0.860s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[0.910s] -- Found dsr_hardware2: 0.0.0 (/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_hardware2/share/dsr_hardware2/cmake)
+[0.942s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.942s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.942s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.955s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.037s] -- Configuring done
+[1.083s] -- Generating done
+[1.084s] -- Build files have been written to: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/dsr_controller2
+[1.095s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/dsr_controller2' returned '0': AMENT_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_hardware2:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_hardware2:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2:/opt/ros/humble LD_LIBRARY_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_hardware2/lib:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2 -DCMAKE_INSTALL_PREFIX=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2
+[1.095s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/dsr_controller2': AMENT_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_hardware2:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_hardware2:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2:/opt/ros/humble LD_LIBRARY_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_hardware2/lib:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/dsr_controller2 -- -j20 -l20
+[1.139s] [ 25%] [32mBuilding CXX object CMakeFiles/dsr_controller2.dir/src/dsr_controller2.cpp.o[0m
+[1.142s] [ 50%] [32mBuilding CXX object CMakeFiles/dsr_joint_trajectory.dir/src/dsr_joint_trajectory.cpp.o[0m
+[4.816s] In file included from [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/include/dsr_controller2/../../../common2/include/DRFL.h:58[m[K,
+[4.816s]                  from [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/include/dsr_controller2/../../../common2/include/DRFLEx.h:58[m[K,
+[4.816s]                  from [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/include/dsr_controller2/dsr_controller2.hpp:205[m[K,
+[4.816s]                  from [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:10[m[K:
+[4.816s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/include/dsr_controller2/../../../common2/include/DRFS.h:2205:50:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.816s]  2205 |     CONFIG_WELDING_DETAIL_INFO  _tWeldingCurrent;[01;35m[K;[m[K
+[4.816s]       |                                                  [01;35m[K^[m[K
+[4.816s]       |                                                  [31m[K-[m[K
+[8.405s] [ 75%] [32m[1mLinking CXX shared library libdsr_joint_trajectory.so[0m
+[8.530s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:[m[K In lambda function:
+[8.530s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:225:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksensitivity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.530s]   225 |     float [01;35m[Ksensitivity[m[K =
+[8.530s]       |           [01;35m[K^~~~~~~~~~~[m[K
+[8.538s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.538s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.539s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.539s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.539s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.539s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.539s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.539s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.539s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.539s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.539s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.539s]                  from [01m[K/opt/ros/humble/include/controller_interface/controller_interface_base.hpp:28[m[K,
+[8.539s]                  from [01m[K/opt/ros/humble/include/controller_interface/controller_interface.hpp:22[m[K,
+[8.539s]                  from [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/include/dsr_controller2/dsr_controller2.hpp:22[m[K,
+[8.539s]                  from [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:10[m[K:
+[8.539s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:[m[K In lambda function:
+[8.539s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:234:55:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 5 has type ‘[01m[KDRAFramework::CDRFLEx*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[8.539s]   234 |     RCLCPP_INFO(rclcpp::get_logger("dsr_controller2"),[01;35m[K"movej_cb() %p"[m[K, [32m[KDrfl[m[K);
+[8.539s]       |                                                       [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~[m[K
+[8.539s]       |                                                                        [32m[K|[m[K
+[8.539s]       |                                                                        [32m[KDRAFramework::CDRFLEx*[m[K
+[8.539s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:234:68:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[8.539s]   234 | LCPP_INFO(rclcpp::get_logger("dsr_controller2"),"movej_cb() [01;36m[K%p[m[K", Drfl);
+[8.539s]       |                                                             [01;36m[K~^[m[K
+[8.539s]       |                                                              [01;36m[K|[m[K
+[8.539s]       |                                                              [01;36m[Kvoid*[m[K
+[8.539s] 
+[8.583s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:[m[K In lambda function:
+[8.583s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:367:15:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kposb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[8.583s]   367 |     MOVE_POSB [01;35m[Kposb[m[K[req->pos_cnt];
+[8.584s]       |               [01;35m[K^~~~[m[K
+[9.077s] [ 75%] Built target dsr_joint_trajectory
+[9.231s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:[m[K In lambda function:
+[9.231s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:1726:108:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.231s]  1726 | [01;35m[Konst std::shared_ptr<dsr_msgs2::srv::DisconnectRtControl::Request> req[m[K,
+[9.231s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.231s] 
+[9.237s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:[m[K In lambda function:
+[9.237s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:1732:131:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.237s]  1732 | [01;35m[Kshared_ptr<dsr_msgs2::srv::GetRtControlOutputVersionList::Request> req[m[K,
+[9.237s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.237s] 
+[9.242s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:[m[K In lambda function:
+[9.242s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:1739:129:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.242s]  1739 | [01;35m[K:shared_ptr<dsr_msgs2::srv::GetRtControlInputVersionList::Request> req[m[K,
+[9.242s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.242s] 
+[9.273s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:[m[K In lambda function:
+[9.273s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:1772:98:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.273s]  1772 | is]([01;35m[Kconst std::shared_ptr<dsr_msgs2::srv::StartRtControl::Request> req[m[K,
+[9.273s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.273s] 
+[9.278s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:[m[K In lambda function:
+[9.278s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:1778:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.278s]  1778 | his]([01;35m[Kconst std::shared_ptr<dsr_msgs2::srv::StopRtControl::Request> req[m[K,
+[9.278s]       |      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.278s] 
+[9.307s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:[m[K In lambda function:
+[9.307s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:1812:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.307s]  1812 |  [this]([01;35m[Kconst std::shared_ptr<dsr_msgs2::srv::ReadDataRt::Request> req[m[K,
+[9.307s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.307s] 
+[9.368s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn dsr_controller2::RobotController::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[9.368s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:2205:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memset(void*, int, size_t)[m[K’ clearing an object of type ‘[01m[Kstruct DR_STATE[m[K’ with no trivial copy-assignment; use assignment or value-initialization instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[9.368s]  2205 |   [01;35m[Kmemset(&g_stDrState, 0x00, sizeof(DR_STATE))[m[K;
+[9.368s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.368s] In file included from [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:10[m[K:
+[9.368s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/include/dsr_controller2/dsr_controller2.hpp:388:16:[m[K [01;36m[Knote: [m[K‘[01m[Kstruct DR_STATE[m[K’ declared here
+[9.368s]   388 | typedef struct [01;36m[K{[m[K
+[9.368s]       |                [01;36m[K^[m[K
+[9.371s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type dsr_controller2::RobotController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[9.371s] [01m[K/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_controller2/src/dsr_controller2.cpp:2247:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.371s]  2247 |   [01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & /*period*/)
+[9.371s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[68.315s] [100%] [32m[1mLinking CXX shared library libdsr_controller2.so[0m
+[76.906s] [100%] Built target dsr_controller2
+[76.918s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/dsr_controller2' returned '0': AMENT_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_hardware2:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_hardware2:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2:/opt/ros/humble LD_LIBRARY_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_hardware2/lib:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/dsr_controller2 -- -j20 -l20
+[76.950s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/dsr_controller2': AMENT_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_hardware2:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_hardware2:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2:/opt/ros/humble LD_LIBRARY_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_hardware2/lib:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/dsr_controller2
+[76.961s] -- Install configuration: ""
+[76.962s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/dsr_controller2_plugins.xml
+[76.962s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/dsr_joint_trajectory_plugin.xml
+[76.962s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/include/dsr_controller2
+[76.962s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/include/dsr_controller2/dsr_controller2
+[76.962s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/include/dsr_controller2/dsr_controller2/dsr_joint_trajectory.hpp
+[76.962s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/include/dsr_controller2/dsr_controller2/visibility_control.h
+[76.962s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/include/dsr_controller2/dsr_controller2/dsr_controller2.hpp
+[76.962s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/config
+[76.963s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/config/dsr_controller2_gz.yaml
+[76.963s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/config/dsr_controller2_ex.yaml
+[76.963s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/config/dsr_controller2.yaml
+[76.963s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/config/default.yaml
+[76.963s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/config/console.conf
+[76.963s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/launch
+[76.963s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/launch/dsr_controller2.launch.py
+[76.963s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/launch/dsr_control2.launch.py
+[76.964s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/launch/dsr_moveit2.launch.py
+[76.964s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/lib/libdsr_controller2.so
+[77.012s] -- Set runtime path of "/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/lib/libdsr_controller2.so" to ""
+[77.012s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/lib/libdsr_joint_trajectory.so
+[77.015s] -- Set runtime path of "/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/lib/libdsr_joint_trajectory.so" to ""
+[77.015s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/environment/library_path.sh
+[77.015s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/environment/library_path.dsv
+[77.015s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/ament_index/resource_index/package_run_dependencies/dsr_controller2
+[77.015s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/ament_index/resource_index/parent_prefix_path/dsr_controller2
+[77.016s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/environment/ament_prefix_path.sh
+[77.016s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/environment/ament_prefix_path.dsv
+[77.016s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/environment/path.sh
+[77.016s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/environment/path.dsv
+[77.016s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/local_setup.bash
+[77.016s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/local_setup.sh
+[77.016s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/local_setup.zsh
+[77.016s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/local_setup.dsv
+[77.016s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/package.dsv
+[77.016s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/ament_index/resource_index/packages/dsr_controller2
+[77.016s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/ament_index/resource_index/controller_interface__pluginlib__plugin/dsr_controller2
+[77.016s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/cmake/export_dsr_controller2Export.cmake
+[77.016s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/cmake/export_dsr_controller2Export-noconfig.cmake
+[77.016s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/cmake/export_dsr_joint_trajectoryExport.cmake
+[77.016s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/cmake/export_dsr_joint_trajectoryExport-noconfig.cmake
+[77.017s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/cmake/ament_cmake_export_targets-extras.cmake
+[77.017s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/cmake/ament_cmake_export_dependencies-extras.cmake
+[77.017s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/cmake/dsr_controller2Config.cmake
+[77.017s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/cmake/dsr_controller2Config-version.cmake
+[77.017s] -- Installing: /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_controller2/share/dsr_controller2/package.xml
+[77.018s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/dsr_controller2' returned '0': AMENT_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_hardware2:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_hardware2:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2:/opt/ros/humble LD_LIBRARY_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_hardware2/lib:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/dsr_msgs2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/dsr_controller2

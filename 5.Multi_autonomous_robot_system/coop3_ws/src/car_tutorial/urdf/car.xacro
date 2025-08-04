@@ -1,0 +1,392 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="urdf_tutorial">
+    
+    <!-- MACROS -->
+    <xacro:include filename="macros.xacro"/>
+
+    <!-- COLOR -->
+    <material name="white">
+        <color rgba="1 1 1 1" />
+    </material>
+
+    <material name="blue">
+        <color rgba="0 0 1 1"/>
+    </material>
+
+    <material name="black">
+        <color rgba="0 0 0 1"/>
+    </material>
+
+    <material name="red">
+        <color rgba="1 0 0 1"/>
+    </material>
+
+    <!-- BASE LINK -->
+    <link name="base_link">
+    </link>
+
+    <!-- BODY LINK -->
+    <joint name="body_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="body"/>
+        <origin xyz="-0.12 0 0"/>
+    </joint>
+
+    <link name="body">
+        <visual>
+            <origin xyz="0.1 0 0.03"/>
+            <geometry>
+                <box size="2 1 0.6"/> 
+            </geometry>
+            <material name="white"/>
+        </visual>
+        <collision>
+            <origin xyz="0.1 0 0.03"/>
+            <geometry>
+                <box size="2 1 0.6"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_box mass="1.0" x="2" y="1" z="0.6">  <!-- 질량 추가 -->
+            <origin xyz="0.1 0 0.03" rpy="0 0 0"/>
+        </xacro:inertial_box>
+    </link>
+
+    <!--robot_arm_joint1-->
+    <joint name="robot_arm_joint1" type="continuous">
+        <parent link="body"/>
+        <child link="robot_arm_link1"/>
+        <origin xyz="0.055 0 0.38" rpy="0 0 0" />
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <link name="robot_arm_link1">
+        <parent link="robot_arm_joint1"/>
+        <child link="robot_arm_joint2"/>
+        <visual>
+            <geometry>
+                <cylinder radius="0.3" length="0.1"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.3" length="0.1"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.5" length="0.1" radius="0.3">  <!-- 질량 추가 -->
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+
+    <!--robot_arm_joint2-->
+    <joint name="robot_arm_joint2" type="continuous">
+        <parent link="robot_arm_link1"/>
+        <child link="robot_arm_link2"/>
+        <origin xyz="0 -0.1 0.1" rpy="${pi/2} 0 0" />
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <link name="robot_arm_link2">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.2"/>
+            </geometry>
+            <material name="white"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.1" length="0.2"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.2" length="0.2" radius="0.1">  <!-- 질량 추가 -->
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+
+     <!--robot_arm_joint3-->
+    <joint name="robot_arm_joint3" type="fixed">
+        <parent link="robot_arm_link2"/>
+        <child link="robot_arm_link3"/>
+        <origin xyz="0 0.25 -0.1" rpy="-${pi/2} 0 0" /> <!-- 위치 조정 -->
+        <axis xyz="0 0 0"/>
+    </joint>
+
+    <link name="robot_arm_link3">
+        <visual>
+            <geometry>
+                <box size="0.1 0.1 0.6"/> <!-- 크기 두 배 -->
+            </geometry>
+            <material name="blue"/>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.1 0.1 0.6"/> <!-- 크기 두 배 -->
+            </geometry>
+        </collision>
+        <xacro:inertial_box mass="0.4" x="0.1" y="0.1" z="0.6">  <!-- 질량 추가 -->
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_box>
+    </link>
+
+    <!--robot_arm_joint4-->
+    <joint name="robot_arm_joint4" type="continuous">
+        <parent link="robot_arm_link3"/>
+        <child link="robot_arm_link4"/>
+        <origin xyz="0 0.05 0.35" rpy="${pi/2} 0 0" /> <!-- 위치 조정 -->
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <link name="robot_arm_link4">
+        <visual>
+            <geometry>
+                <cylinder radius="0.05" length="0.2"/> <!-- 크기 두 배 -->
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.05" length="0.2"/> <!-- 크기 두 배 -->
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.1" length="0.2" radius="0.05">  <!-- 질량 추가 -->
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+
+    <!--robot_arm_joint5-->
+    <joint name="robot_arm_joint5" type="fixed">
+        <parent link="robot_arm_link4"/>
+        <child link="robot_arm_link5"/>
+        <origin xyz="0 0.65 -0.05" rpy="-${pi/2} 0 0" /> <!-- 위치 조정 -->
+        <axis xyz="0 0 0"/>
+    </joint>
+
+    <link name="robot_arm_link5">
+        <visual>
+            <geometry>
+                <box size="0.1 0.1 1.2"/> <!-- 크기 두 배 -->
+            </geometry>
+            <material name="blue"/>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.1 0.1 1.2"/> <!-- 크기 두 배 -->
+            </geometry>
+        </collision>
+        <xacro:inertial_box mass="0.6" x="0.1" y="0.1" z="1.2">  <!-- 질량 추가 -->
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_box>
+    </link>
+
+    <!--robot_arm_joint6-->
+    <joint name="robot_arm_joint6" type="continuous">
+        <parent link="robot_arm_link5"/>
+        <child link="robot_arm_link6"/>
+        <origin xyz="0 -0.05 0.65" rpy="${pi/2} 0 0" /> <!-- 위치 조정 -->
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <link name="robot_arm_link6">
+        <visual>
+            <geometry>
+                <cylinder radius="0.05" length="0.2"/> <!-- 크기 두 배 -->
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.05" length="0.2"/> <!-- 크기 두 배 -->
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.1" length="0.2" radius="0.05">  <!-- 질량 추가 -->
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+
+    <!--robot_arm_joint7-->
+    <joint name="robot_arm_joint7" type="fixed">
+        <parent link="robot_arm_link6"/>
+        <child link="robot_arm_link7"/>
+        <origin xyz="0 0.35 0.05" rpy="-${pi/2} 0 0" /> <!-- 위치 조정 -->
+        <axis xyz="0 0 0"/>
+    </joint>
+
+    <link name="robot_arm_link7">
+        <visual>
+            <geometry>
+                <box size="0.1 0.1 0.6"/> <!-- 크기 두 배 -->
+            </geometry>
+            <material name="blue"/>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.1 0.1 0.6"/> <!-- 크기 두 배 -->
+            </geometry>
+        </collision>
+        <xacro:inertial_box mass="0.4" x="0.1" y="0.1" z="0.6">  <!-- 질량 추가 -->
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_box>
+    </link>
+
+
+    <!-- LEFT WHEEL LINK -->
+    <joint name="left_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="left_wheel"/>
+        <origin xyz="-0.26 0.7 0" rpy="-${pi/2} 0 0" />
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <link name="left_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.31" length="0.3"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.31" length="0.3"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.5" length="0.3" radius="0.31">  <!-- 질량 추가 -->
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+
+    <!-- RIGHT WHEEL LINK -->
+    <joint name="right_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="right_wheel"/>
+        <origin xyz="-0.26 -0.7 0" rpy="${pi/2} 0 0" />
+        <axis xyz="0 0 -1"/>
+    </joint>
+
+    <link name="right_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.31" length="0.3"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.31" length="0.3"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.5" length="0.3" radius="0.31">  <!-- 질량 추가 -->
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+
+    <!-- CASTER WHEEL LINK -->
+    <joint name="caster_wheel_joint" type="fixed">
+        <parent link="body"/>
+        <child link="caster_wheel"/>
+        <origin xyz="0.65 0 -0.15"/>
+    </joint>
+
+    <link name="caster_wheel">
+        <visual>
+            <geometry>
+                <sphere radius="0.17"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <geometry>
+                <sphere radius="0.17"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_sphere mass="0.3" radius="0.17">  <!-- 질량 추가 -->
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_sphere>
+    </link>
+
+    <!-- CAMERA -->
+    <joint name="camera_joint" type="fixed">
+        <parent link="body"/>
+        <child link="camera_link"/>
+        <origin xyz="-0.95 0 0.03" rpy="0 0 ${-pi}"/>
+    </joint>
+
+    <link name="camera_link">
+        <visual>
+            <geometry>
+                <box size="0.02 0.06 0.06"/>
+            </geometry>
+            <material name="red"/>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.02 0.06 0.06"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_box mass="0.01" x="0.02" y="0.06" z="0.06">  <!-- 질량 추가 -->
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_box>
+    </link>
+
+    <joint name="camera_optical_joint" type="fixed">
+        <parent link="camera_link"/>
+        <child link="camera_link_optical"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
+    <link name="camera_link_optical">
+    </link>
+
+    <!-- LiDAR_SUPPORT -->
+    <joint name="laser_joint_sup" type="fixed">
+        <parent link="body"/>
+        <child link="laser_sup_frame"/>
+        <origin xyz="-0.75 0 0.55" rpy="0 0 0"/>
+    </joint>
+
+    <link name="laser_sup_frame">
+        <visual>
+            <geometry>
+                <cylinder radius="0.06" length="0.4"/>
+            </geometry>
+            <material name="white"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.06" length="0.4"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.2" length="0.4" radius="0.06">  <!-- 질량 추가 -->
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+
+    <!-- LiDAR -->
+    <joint name="laser_joint" type="fixed">
+        <parent link="laser_sup_frame"/>
+        <child link="laser_frame"/>
+        <origin xyz="0 0 0.25" rpy="0 0 0"/>
+    </joint>
+
+    <link name="laser_frame">
+        <visual>
+            <geometry>
+                <cylinder radius="0.06" length="0.1"/>
+            </geometry>
+            <material name="red"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.06" length="0.1"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.05" length="0.1" radius="0.06">  <!-- 질량 추가 -->
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+    
+    <!-- GAZEBO -->
+    <xacro:include filename="gazebo.xacro"/>
+    <xacro:include filename="lidar_3.xacro"/>
+    <xacro:include filename="camera.xacro"/>
+
+</robot>

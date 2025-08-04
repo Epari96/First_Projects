@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating detector.egg-info
+writing detector.egg-info/PKG-INFO
+writing dependency_links to detector.egg-info/dependency_links.txt
+writing entry points to detector.egg-info/entry_points.txt
+writing requirements to detector.egg-info/requires.txt
+writing top-level names to detector.egg-info/top_level.txt
+writing manifest file 'detector.egg-info/SOURCES.txt'
+reading manifest file 'detector.egg-info/SOURCES.txt'
+writing manifest file 'detector.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/detector/lib/python3.10/site-packages/detector.egg-link (link to .)
+Installing detector script to /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/detector/lib/detector
+
+Installed /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/build/detector
+running symlink_data
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/detector/share/ament_index
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/detector/share/ament_index/resource_index
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/detector/share/ament_index/resource_index/packages
+symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/build/detector/resource/detector -> /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/detector/share/ament_index/resource_index/packages
+symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/build/detector/package.xml -> /home/jaeheyoung/Rokey/7.PracticalProject/Week6_Drive2/rbvacuum_ws/install/detector/share/detector

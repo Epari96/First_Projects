@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+firedetect/__init__.py
+firedetect/camerashow.py
+firedetect/fire_detect.py
+firedetect/fire_detect_241205.py
+firedetect/fire_detect_241206_1620.py
+firedetect.egg-info/PKG-INFO
+firedetect.egg-info/SOURCES.txt
+firedetect.egg-info/dependency_links.txt
+firedetect.egg-info/entry_points.txt
+firedetect.egg-info/requires.txt
+firedetect.egg-info/top_level.txt
+firedetect.egg-info/zip-safe
+resource/firedetect

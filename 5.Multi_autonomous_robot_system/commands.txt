@@ -1,0 +1,5 @@
+ros2 launch turtlebot3_multi_robot gazebo_multi_nav2_world.launch.py
+python3 src/turtlebot3_multi_robot/turtlebot3_multi_robot/ctrltower_gui.py
+ros2 param set /tb1/camera_driver update_rate 20.0
+ros2 param set /tb2/camera_driver update_rate 20.0
+ros2 launch car_tutorial car_tutorial.launch.py

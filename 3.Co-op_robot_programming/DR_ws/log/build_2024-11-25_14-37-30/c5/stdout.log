@@ -1,0 +1,41 @@
+running egg_info
+writing ../../../../build/c5/c5.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/c5/c5.egg-info/dependency_links.txt
+writing entry points to ../../../../build/c5/c5.egg-info/entry_points.txt
+writing requirements to ../../../../build/c5/c5.egg-info/requires.txt
+writing top-level names to ../../../../build/c5/c5.egg-info/top_level.txt
+reading manifest file '../../../../build/c5/c5.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/c5/c5.egg-info/SOURCES.txt'
+running build
+running build_py
+copying c5/basic/stack_domino1.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/c5/build/lib/c5/basic
+copying c5/basic/gear_assy.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/c5/build/lib/c5/basic
+copying c5/basic/sortingBlock.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/c5/build/lib/c5/basic
+copying c5/basic/temp.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/c5/build/lib/c5/basic
+copying c5/basic/cup_stacking.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/c5/build/lib/c5/basic
+running install
+running install_lib
+copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/c5/build/lib/c5/basic/stack_domino1.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/c5/lib/python3.10/site-packages/c5/basic
+copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/c5/build/lib/c5/basic/gear_assy.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/c5/lib/python3.10/site-packages/c5/basic
+copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/c5/build/lib/c5/basic/sortingBlock.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/c5/lib/python3.10/site-packages/c5/basic
+copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/c5/build/lib/c5/basic/temp.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/c5/lib/python3.10/site-packages/c5/basic
+copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/c5/build/lib/c5/basic/cup_stacking.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/c5/lib/python3.10/site-packages/c5/basic
+byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/c5/lib/python3.10/site-packages/c5/basic/stack_domino1.py to stack_domino1.cpython-310.pyc
+byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/c5/lib/python3.10/site-packages/c5/basic/gear_assy.py to gear_assy.cpython-310.pyc
+byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/c5/lib/python3.10/site-packages/c5/basic/sortingBlock.py to sortingBlock.cpython-310.pyc
+byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/c5/lib/python3.10/site-packages/c5/basic/temp.py to temp.cpython-310.pyc
+byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/c5/lib/python3.10/site-packages/c5/basic/cup_stacking.py to cup_stacking.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/c5/lib/python3.10/site-packages/c5-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../../build/c5/c5.egg-info to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/c5/lib/python3.10/site-packages/c5-0.0.0-py3.10.egg-info
+running install_scripts
+Installing domino script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/c5/lib/c5
+Installing force_control script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/c5/lib/c5
+Installing getting_position script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/c5/lib/c5
+Installing grip script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/c5/lib/c5
+Installing move_periodic script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/c5/lib/c5
+Installing pickNplace script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/c5/lib/c5
+Installing simple_move script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/c5/lib/c5
+Installing sort_block script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/c5/lib/c5
+writing list of installed files to '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/c5/install.log'

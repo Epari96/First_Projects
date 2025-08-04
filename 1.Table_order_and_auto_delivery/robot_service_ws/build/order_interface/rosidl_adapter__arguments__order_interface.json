@@ -1,0 +1,6 @@
+{
+  "package_name": "order_interface",
+  "non_idl_tuples": [
+    "/home/jaeheyoung/robot_service_ws/src/order_interface:srv/Order.srv"
+  ]
+}

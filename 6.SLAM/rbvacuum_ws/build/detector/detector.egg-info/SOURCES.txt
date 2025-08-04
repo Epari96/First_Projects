@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+detector/__init__.py
+detector/orb_detector.py
+detector.egg-info/PKG-INFO
+detector.egg-info/SOURCES.txt
+detector.egg-info/dependency_links.txt
+detector.egg-info/entry_points.txt
+detector.egg-info/requires.txt
+detector.egg-info/top_level.txt
+detector.egg-info/zip-safe
+resource/detector

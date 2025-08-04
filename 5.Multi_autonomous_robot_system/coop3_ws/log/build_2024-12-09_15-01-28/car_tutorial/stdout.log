@@ -1,0 +1,39 @@
+running develop
+running egg_info
+creating car_tutorial.egg-info
+writing car_tutorial.egg-info/PKG-INFO
+writing dependency_links to car_tutorial.egg-info/dependency_links.txt
+writing entry points to car_tutorial.egg-info/entry_points.txt
+writing requirements to car_tutorial.egg-info/requires.txt
+writing top-level names to car_tutorial.egg-info/top_level.txt
+writing manifest file 'car_tutorial.egg-info/SOURCES.txt'
+reading manifest file 'car_tutorial.egg-info/SOURCES.txt'
+writing manifest file 'car_tutorial.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/lib/python3.10/site-packages/car-tutorial.egg-link (link to .)
+Installing driver script to /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/lib/car_tutorial
+Installing odom script to /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/lib/car_tutorial
+
+Installed /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial
+running symlink_data
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/ament_index
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/ament_index/resource_index
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/ament_index/resource_index/packages
+symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/resource/car_tutorial -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/ament_index/resource_index/packages
+symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/package.xml -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/launch
+symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/launch/car_tutorial.launch.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/launch
+symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/launch/robot_3.launch.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/launch
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/config
+symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/config/car.rviz -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/config
+symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/config/with_robot.world -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/config
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/urdf
+symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/urdf/car.xacro -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/urdf
+symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/urdf/lidar_3.xacro -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/urdf
+symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/urdf/gazebo.xacro -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/urdf
+symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/urdf/camera.xacro -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/urdf
+symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/urdf/macros.xacro -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/urdf
+symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/urdf/turtlebot3_burger.xacro -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/urdf
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/photo
+symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial/photo/photo.png -> /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/photo
+creating /home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/share/car_tutorial/worlds

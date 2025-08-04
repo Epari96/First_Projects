@@ -1,0 +1,3 @@
+[console_scripts]
+detector = detector.orb_detector:main
+

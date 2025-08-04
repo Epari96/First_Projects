@@ -1,0 +1,1 @@
+/home/jaeheyoung/Rokey/7.PracticalProject/Week8_Intel2/turtlebot3_ws/build/turtlebot3_msgs/rosidl_typesupport_introspection_c/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_introspection_c.h

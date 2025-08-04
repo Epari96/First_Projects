@@ -1,0 +1,4 @@
+source;share/automap/local_setup.bash
+source;share/automap/local_setup.dsv
+source;share/automap/local_setup.sh
+source;share/automap/local_setup.zsh

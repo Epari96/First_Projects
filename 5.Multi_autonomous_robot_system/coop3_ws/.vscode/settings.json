@@ -1,0 +1,26 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/set_sim",
+        "/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/set_sim/lib/python3.10/site-packages",
+        "/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/firedetect",
+        "/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/firedetect/lib/python3.10/site-packages",
+        "/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial",
+        "/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/lib/python3.10/site-packages",
+        "/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_simulation",
+        "/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_simulation/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/set_sim",
+        "/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/set_sim/lib/python3.10/site-packages",
+        "/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/firedetect",
+        "/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/firedetect/lib/python3.10/site-packages",
+        "/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_tutorial",
+        "/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_tutorial/lib/python3.10/site-packages",
+        "/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/build/car_simulation",
+        "/home/jaeheyoung/Rokey/7.PracticalProject/Week5_Coop3/coop3_ws/install/car_simulation/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

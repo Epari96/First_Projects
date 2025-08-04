@@ -1,0 +1,28 @@
+[4.560s] Invoking command in '/home/jaeheyoung/robot_service_ws/src/robot_serving': PYTHONPATH=/home/jaeheyoung/robot_service_ws/build/robot_serving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_serving build --build-base /home/jaeheyoung/robot_service_ws/build/robot_serving/build install --record /home/jaeheyoung/robot_service_ws/build/robot_serving/install.log --single-version-externally-managed install_data
+[5.031s] running egg_info
+[5.032s] writing ../../build/robot_serving/robot_serving.egg-info/PKG-INFO
+[5.032s] writing dependency_links to ../../build/robot_serving/robot_serving.egg-info/dependency_links.txt
+[5.032s] writing entry points to ../../build/robot_serving/robot_serving.egg-info/entry_points.txt
+[5.032s] writing requirements to ../../build/robot_serving/robot_serving.egg-info/requires.txt
+[5.032s] writing top-level names to ../../build/robot_serving/robot_serving.egg-info/top_level.txt
+[5.034s] reading manifest file '../../build/robot_serving/robot_serving.egg-info/SOURCES.txt'
+[5.036s] writing manifest file '../../build/robot_serving/robot_serving.egg-info/SOURCES.txt'
+[5.036s] running build
+[5.037s] running build_py
+[5.037s] copying robot_serving/POS.py -> /home/jaeheyoung/robot_service_ws/build/robot_serving/build/lib/robot_serving
+[5.037s] copying robot_serving/table.py -> /home/jaeheyoung/robot_service_ws/build/robot_serving/build/lib/robot_serving
+[5.037s] running install
+[5.038s] running install_lib
+[5.039s] copying /home/jaeheyoung/robot_service_ws/build/robot_serving/build/lib/robot_serving/POS.py -> /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving
+[5.039s] copying /home/jaeheyoung/robot_service_ws/build/robot_serving/build/lib/robot_serving/table.py -> /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving
+[5.040s] byte-compiling /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving/POS.py to POS.cpython-310.pyc
+[5.047s] byte-compiling /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving/table.py to table.cpython-310.pyc
+[5.061s] running install_data
+[5.061s] running install_egg_info
+[5.061s] removing '/home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving-0.0.0-py3.10.egg-info' (and everything under it)
+[5.062s] Copying ../../build/robot_serving/robot_serving.egg-info to /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages/robot_serving-0.0.0-py3.10.egg-info
+[5.062s] running install_scripts
+[5.087s] Installing pos script to /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/robot_serving
+[5.087s] Installing table script to /home/jaeheyoung/robot_service_ws/install/robot_serving/lib/robot_serving
+[5.088s] writing list of installed files to '/home/jaeheyoung/robot_service_ws/build/robot_serving/install.log'
+[5.202s] Invoked command in '/home/jaeheyoung/robot_service_ws/src/robot_serving' returned '0': PYTHONPATH=/home/jaeheyoung/robot_service_ws/build/robot_serving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/robot_service_ws/install/robot_serving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_serving build --build-base /home/jaeheyoung/robot_service_ws/build/robot_serving/build install --record /home/jaeheyoung/robot_service_ws/build/robot_serving/install.log --single-version-externally-managed install_data

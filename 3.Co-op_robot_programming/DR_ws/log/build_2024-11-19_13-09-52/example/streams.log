@@ -1,0 +1,51 @@
+[1.387s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_example2/example': AMENT_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/common2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/common2 PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/example build --build-base /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/example/build install --record /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/example/install.log --single-version-externally-managed install_data
+[1.646s] running egg_info
+[1.646s] creating ../../../../build/example/example.egg-info
+[1.647s] writing ../../../../build/example/example.egg-info/PKG-INFO
+[1.647s] writing dependency_links to ../../../../build/example/example.egg-info/dependency_links.txt
+[1.647s] writing entry points to ../../../../build/example/example.egg-info/entry_points.txt
+[1.647s] writing requirements to ../../../../build/example/example.egg-info/requires.txt
+[1.647s] writing top-level names to ../../../../build/example/example.egg-info/top_level.txt
+[1.647s] writing manifest file '../../../../build/example/example.egg-info/SOURCES.txt'
+[1.648s] reading manifest file '../../../../build/example/example.egg-info/SOURCES.txt'
+[1.649s] writing manifest file '../../../../build/example/example.egg-info/SOURCES.txt'
+[1.649s] running build
+[1.649s] running build_py
+[1.649s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/example/build
+[1.649s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/example/build/lib
+[1.649s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/example/build/lib/example
+[1.649s] copying example/__init__.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/example/build/lib/example
+[1.650s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/example/build/lib/example/simple
+[1.650s] copying example/simple/single_robot_simple.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/example/build/lib/example/simple
+[1.652s] copying example/simple/__init__.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/example/build/lib/example/simple
+[1.658s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/example/build/lib/example/demo
+[1.661s] copying example/demo/dance_m1013.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/example/build/lib/example/demo
+[1.662s] copying example/demo/__init__.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/example/build/lib/example/demo
+[1.664s] running install
+[1.665s] running install_lib
+[1.665s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/lib/python3.10/site-packages/example
+[1.666s] copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/example/build/lib/example/__init__.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/lib/python3.10/site-packages/example
+[1.667s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/lib/python3.10/site-packages/example/simple
+[1.667s] copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/example/build/lib/example/simple/single_robot_simple.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/lib/python3.10/site-packages/example/simple
+[1.668s] copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/example/build/lib/example/simple/__init__.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/lib/python3.10/site-packages/example/simple
+[1.668s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/lib/python3.10/site-packages/example/demo
+[1.669s] copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/example/build/lib/example/demo/dance_m1013.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/lib/python3.10/site-packages/example/demo
+[1.669s] copying /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/example/build/lib/example/demo/__init__.py -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/lib/python3.10/site-packages/example/demo
+[1.670s] byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/lib/python3.10/site-packages/example/__init__.py to __init__.cpython-310.pyc
+[1.671s] byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/lib/python3.10/site-packages/example/simple/single_robot_simple.py to single_robot_simple.cpython-310.pyc
+[1.671s] byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/lib/python3.10/site-packages/example/simple/__init__.py to __init__.cpython-310.pyc
+[1.672s] byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/lib/python3.10/site-packages/example/demo/dance_m1013.py to dance_m1013.cpython-310.pyc
+[1.672s] byte-compiling /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/lib/python3.10/site-packages/example/demo/__init__.py to __init__.cpython-310.pyc
+[1.673s] running install_data
+[1.673s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/share/ament_index
+[1.674s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/share/ament_index/resource_index
+[1.674s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/share/ament_index/resource_index/packages
+[1.675s] copying resource/example -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/share/ament_index/resource_index/packages
+[1.675s] copying package.xml -> /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/share/example
+[1.676s] running install_egg_info
+[1.677s] Copying ../../../../build/example/example.egg-info to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/lib/python3.10/site-packages/example-0.0.0-py3.10.egg-info
+[1.677s] running install_scripts
+[1.679s] Installing dance script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/lib/example
+[1.679s] Installing single_robot_simple script to /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/lib/example
+[1.680s] writing list of installed files to '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/example/install.log'
+[1.704s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/src/doosan-robot2/dsr_example2/example' returned '0': AMENT_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/common2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/common2 PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/install/example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/example build --build-base /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/example/build install --record /home/jaeheyoung/Rokey/7.PracticalProject/Week3_Coop2/DR_ws/build/example/install.log --single-version-externally-managed install_data

@@ -1,0 +1,26 @@
+[0.400s] Invoking command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/drive3_ws/build/my_robot': PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/drive3_ws/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/drive3_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/drive3_ws/build/my_robot/build --no-deps symlink_data
+[0.572s] running develop
+[0.691s] running egg_info
+[0.691s] creating my_robot.egg-info
+[0.692s] writing my_robot.egg-info/PKG-INFO
+[0.692s] writing dependency_links to my_robot.egg-info/dependency_links.txt
+[0.692s] writing entry points to my_robot.egg-info/entry_points.txt
+[0.692s] writing requirements to my_robot.egg-info/requires.txt
+[0.692s] writing top-level names to my_robot.egg-info/top_level.txt
+[0.692s] writing manifest file 'my_robot.egg-info/SOURCES.txt'
+[0.693s] reading manifest file 'my_robot.egg-info/SOURCES.txt'
+[0.693s] writing manifest file 'my_robot.egg-info/SOURCES.txt'
+[0.694s] running build_ext
+[0.694s] Creating /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/drive3_ws/install/my_robot/lib/python3.10/site-packages/my-robot.egg-link (link to .)
+[0.694s] Installing GUI_node script to /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/drive3_ws/install/my_robot/lib/my_robot
+[0.694s] Installing img_pub script to /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/drive3_ws/install/my_robot/lib/my_robot
+[0.694s] Installing img_sub script to /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/drive3_ws/install/my_robot/lib/my_robot
+[0.694s] 
+[0.694s] Installed /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/drive3_ws/build/my_robot
+[0.694s] running symlink_data
+[0.695s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/drive3_ws/install/my_robot/share/ament_index
+[0.695s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/drive3_ws/install/my_robot/share/ament_index/resource_index
+[0.695s] creating /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/drive3_ws/install/my_robot/share/ament_index/resource_index/packages
+[0.695s] symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/drive3_ws/build/my_robot/resource/my_robot -> /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/drive3_ws/install/my_robot/share/ament_index/resource_index/packages
+[0.695s] symbolically linking /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/drive3_ws/build/my_robot/package.xml -> /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/drive3_ws/install/my_robot/share/my_robot
+[0.712s] Invoked command in '/home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/drive3_ws/build/my_robot' returned '0': PYTHONPATH=/home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/drive3_ws/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/drive3_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaeheyoung/Rokey/7.PracticalProject/Week7_Drive3/drive3_ws/build/my_robot/build --no-deps symlink_data
